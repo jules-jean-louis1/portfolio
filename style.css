@@ -17,28 +17,62 @@ body{
 	background-color: #1a1a1a;
 	color: #f5eee6;
 }
-
+* {
+    text-rendering: optimizeLegibility;
+}
 /* HEADER */
 header{
 	color: #f5eee6;
+	position: fixed;
+    top: 0px;
+    left: 28px;
+    right: 28px;
+    z-index: 11;
+    height: 103px;
 }
-.navbar{
-	margin-left: 0%;
-	margin-right: 0%;
-	display: flex;
-	gap: 45%;
-	justify-content: center;
+header .navbar{
+	padding: 1.625rem 0 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(245,238,230,.5);
+    position: relative;
 }
-progress {
-	display: flex;
-    height: 1px;
-    vertical-align: -0.2em;
-    width: 98%;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-	margin-left: 20px;
-	border: 2px;	
+
+
+header .active_nav {
+    transition: 200ms cubic-bezier(0.67, 0.15, 0.77, 0.71);
+    position: absolute;
+    top: 0;
+    left: -28px;
+    bottom: 0;
+    right: -28px;
+}
+.active_nav {
+    position: absolute;
+    background-color: rgba(19,19,19,.15);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    z-index: -1;
+}
+.active_nav .nav_links a,
+.active_nav .logo {
+    color: #ffffff;
+}
+.active_nav .nav_links a:hover {
+    color: #fff;
+}
+.st0{
+	fill:#f5eee6;
+}
+svg#logo-nav {
+    width: 50px;
+	object-fit: cover;
+    object-position: center;
+}
+span.svg_logo {
+    display: flex;
+    align-items: center;
 }
 .name{
 	display: flex;
@@ -49,21 +83,23 @@ progress {
 	display: flex;
 	width: 100%;
 	font-size: 15px;
+	margin: 2.5%;
 }
 #nom{
-	display: flex;
-	width: 150px;
-	font-family: 'Abril Fatface', cursive;
+	width: 142px;
+    font-family: 'Abril Fatface', cursive;
+    color: #fbfafb;
+    box-sizing: border-box;
 }
 #sous-titre{
-	display: flex;
-	width: 250px;
+	width: 245px;
 }
 .navbar-sub{
 	display: flex;
 	align-items: center;
 	text-transform: uppercase;
 	font-size: 15px;
+	font-weight: 500;
 }
 .navbar-sub ul{
     display: flex;
@@ -75,14 +111,22 @@ progress {
 .navbar-sub li{
 	display: flex;
 }
-.nav-underline{
-	border: 4px;
-	border-color: aqua;
-}
+.tut-animation-1 {
+	transition: background-size .6s ease-out;
+	background-image: linear-gradient(#e1b487, #e1b487);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: 0 10%;
+  }
+  .tut-animation-1:hover,
+  .tut-animation-1--permanent {
+	background-size: 100% 10%;
+  }
 
 /* Main */
 body{
 	background: fixed;
+	/* background-image: url(images-cv/bg---3.jpg); */
 	background-image: url(images-cv/bg---3.jpg);
 	background-repeat: no-repeat;
 	
@@ -95,7 +139,15 @@ body{
 	width: 98%;
     height: 100vh;
     position: relative;
-	margin-top: 2%;
+	margin-top: 1%;
+}
+.sub-present {
+    position: absolute;
+    bottom: 28px;
+    left: 0;
+    right: 0;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .box-subpresent{
 	display: flex;
@@ -106,14 +158,39 @@ body{
 	font-family: 'TuskerGrotesk-2600Semibold';
 	font-size: 12rem;
 	text-transform: uppercase;
+	margin-bottom: -2vw;
+}
+.toptitle-element{
+	font-size: 2.1vw;
+    margin-left: 0.4vw;
+    margin-bottom: -4vw;
+	color: #f3dbc7;
+	font-family: 'Abril Fatface', cursive;
 }
 .maintenace h1{
 	margin: 0px 0px 5px 0px;
-	width: 954px;
-    height: 405px;
-
+	padding-top: 2vh;
+	transform-origin: 0 50%;
+    white-space: nowrap;
+    will-change: transform;
 }
-
+[class*=box-subpresent] h1>span{
+	position: relative;
+}
+.maintenace h1 {
+	font-size: 15vw;
+	letter-spacing: 5px;
+}
+h1 [class*=split]:first-of-type {
+	transform: translateY(1vw);
+}
+h1 [class*=split]{
+	overflow: hidden;
+	display: flex;
+}
+#split_main, #split_info{
+	height: 364px;
+}
 .sub2-present {
     display: flex;
     flex-direction: column;
@@ -180,7 +257,7 @@ body{
 .box-warpper-projet{
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 10%;
 	padding-bottom: 50px;
 }
@@ -191,7 +268,11 @@ body{
 	padding-bottom: 5px;
 }
 .box-projet-title h2{
-	color: #323744;
+	font-size: 2.1vw;
+    margin-left: 0.4vw;
+    margin-bottom: 1vw;
+	font-family: 'Abril Fatface', cursive;
+	color: #131313;
 }
 .box-projet1{
 	display: flex;
@@ -211,18 +292,19 @@ body{
 }
 .box_projet_warp_border {
 	backdrop-filter: blur(23px);
-	background: #E0DAD3;
+	background: #f5eee6;
     outline: none;
 	border-radius: 8px;
 	padding-top: 15px;
 	padding-right: 20px;
 	padding-bottom: 12px;
 	padding-left: 20px;
-	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 25%);
 }
 .projet_previs_1 img{
-	width: 95%;
-	border-radius: 8px;
+	width: 98%;
+	border-radius: 12px;
 }
 button.previs1 {
     margin:10px;
@@ -232,7 +314,7 @@ button.previs1 {
 .previs1 {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #323744;
+  border: 2px solid #131313;
   border-radius: 15px;
   box-sizing: border-box;
   color: #323744;
@@ -263,18 +345,17 @@ button.previs1 {
 
 .previs1:hover {
  	color: #ef0e3b;
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba(0, 0, 0, 0.1);
  	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
- 	transform: translateY(-2px);
 }
 .previs1 a:link{
 	color: #323744;
 }
 .previs1 a:link:hover{
-	color: #F5EEE6;
+	color: #ef0e3b;
 }
 .previs1 a:visited:hover{
-	color: #F5EEE6;
+	color: #ef0e3b;
 }
 .previs1 a:visited{
 	color: #323744;
@@ -336,17 +417,42 @@ a:visited{
 	text-decoration: none;
 }
 
+/*************  Comp */
+#section_compétence {
+    background-color: #131313;
+    height: 600px;
+    position: relative;
+    top: -96px;
+}
+.competence {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-bottom: 50px;
+
+}
+.warpper_compt {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/*********************************************************/
 .parcours{
-	font-size: 1.5em;
 	text-transform: uppercase;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
 }
+.parcours h2 {
+	font-size: 2.1vw;
+    font-family: 'Abril Fatface', cursive;
+}
 .box-information{
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 10%;
+	margin-top: 5%;
 	display: flex;
 }
 .box-information {
@@ -359,7 +465,7 @@ a:visited{
 }
 .boxbox>* {
     flex: 1 1 35%;
-    background: #2e2e2e;
+    background: #131313;
     box-shadow: 0px 0px 17px 4px rgb(0 0 0 / 5%);
     margin: 25px;
     border-radius: 50px;
@@ -369,6 +475,9 @@ a:visited{
 }
 .sub-format, .sub-xp,.sub-comp,.sub-info{
 	text-align: center;
+}
+.sub-format h2,.sub-xp h2,.sub-comp h2,.sub-info h2 {
+	font-family: 'Abril Fatface', cursive;
 }
 .sub-format ul{
 	padding: 0%;
@@ -381,7 +490,8 @@ a:visited{
 }
 
 #study01, #work01, #skill01, #contact01{
-	width: 10%;
+    width: 5%;
+    position: absolute;
 }
 
 /* FOOTER */
