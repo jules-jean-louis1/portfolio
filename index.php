@@ -243,59 +243,6 @@
 				</div>
 			</div>
 		</section>
-		<!-- <section id="section_formations" class="scroll_section" >
-			<div class="parcours">
-				<h2>mon parcours</h2>
-			</div>
-			<div class="box-information">
-				<div class="boxbox">
-					<div class="format">
-						<img id="study01" src="images-cv/study.png" alt="study-icone">
-						<div class="sub-format">
-							<h2>Formation</h2>
-							<ul>
-								<li>2019 - 1er année de BTS - CRSA</li>
-								<li>2018 – 1er année de licence de droit et science politique</li>
-								<li>2017 – 1er année licence mathématique-informatique</li>
-								<li>2016 - Baccalauréat général série S Option ISN</li>
-							</ul>
-						</div>
-					</div>
-					<div class="xp">
-						<img id="work01" src="images-cv/work.png" alt="Work"/>
-						<div class="sub-xp">
-							<h2>Experience professionelle</h2>
-							<p>Juin 2021-Mars 2022 manœuvre intérim - Marseille</p>
-						</div>
-					</div>
-					<div class="skill">
-						<img id="skill01" src="images-cv/skill.png" alt="skill">
-						<div class="sub-comp">
-							<h2>Compétence</h2>
-							<ul>Connaissance outils informatiques
-								<li>Changer ou réparer un élément ou un ensemble défectueux</li>
-								<li>Configurer le poste de travail aux besoins de l'utilisateur et effectuer les tests de fonctionnement</li>
-								<li>Diagnostiquer à distance un dysfonctionnement informatique matériel ou logiciel</li>
-								<li>Guider l'utilisateur pour résoudre le dysfonctionnement ou prendre le contrôle du système à distance</li>
-								<li>Identifier des ressources nécessaires à la résolution d'un dysfonctionnement</li>
-							</ul>
-						</div>
-					</div>
-					<div class="info">
-						<img id="contact01" src="images-cv/contact.png" alt="Contact">
-						<div class="sub-info">
-							<h2>Contact</h2>
-							<ul>
-								<li>jules.jeanlouis@gmail.com</li>
-								<li>Telephone : 0760110723</li>
-								<li>128 impasse val sec</li>
-								<li>Les pennes-Mirabeau</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
 		<section class="contact" id="section_contact">
 			<div class="wapper_contact">
 				<div class="icon_wrapper">
@@ -312,9 +259,6 @@
 						<span class="split_c1" id="split_main">
 							<div class="line" style="transform: translate(0px, 0%);opacity: 1;">Contacter-Moi</div>
 						</span>
-						<!-- <span class="split_c2" id="split_info">
-							<div  class="line" style="transform: translate(0px, 0%);opacity: 1;">Moi</div>
-						</span> -->
 					<h1>
 				</div>
 				<div id="container">
