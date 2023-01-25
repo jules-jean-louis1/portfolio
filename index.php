@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Jules JEAN-LOUIS</title>
+	<title>Jules JEAN-LOUIS - Portefolio</title>
 	<link rel="icon" href="images-cv/JJL-logo19-black.png" type="image/icon type">
 	<link rel="stylesheet" href="style.css" />
 </head>
@@ -71,21 +71,20 @@
 					
 					<div class="maintenace">
 						<div class="toptitle-element">
-							<span>service info.</span>
+							<span>Creatif.</span>
 						</div>
 						<h1 class="uppercase">
 							<span class="split" id="split_main">
-								<div class="line" style="transform: translate(0px, 0%);opacity: 1;">maintenace</div>
+								<div class="line" style="transform: translate(0px, 0%);opacity: 1;">Web</div>
 							</span>
 							<span class="split" id="split_info">
-								<div  class="line" style="transform: translate(0px, 0%);opacity: 1;">informatique</div>
+								<div  class="line" style="transform: translate(0px, 0%);opacity: 1;">Developper</div>
 							</span>
 						<h1>
 					</div>
 					<div class="sub2-present">
-						<h2>Présentation</h2>
 						<p id="para-present"> Bonjour, je m'appelle Jules.</p>
-						<p>Je suis technicien en maintenance informatique. Consciencieux, motiver, discipliner, je suis passionné par les nouvelles technologies et leur fonctionnement.</p>
+						<p>Je suis développeur Web. Consciencieux, motiver, discipliner, je suis passionné par les nouvelles technologies et leur fonctionnement.</p>
 						<button class="button-28" role="button"><a href="#section_contact">contacter-moi</a></button>
 					</div>
 				</div>
