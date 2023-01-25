@@ -49,10 +49,13 @@ header {
 	right: 0px;
 	z-index: 11;
 }
+#navbar-container {
+	border-bottom: 1px solid #F5EEE6;
+}
 #scrollbar {
 	width: 0%;
 	height: 2px;
-	background-color: #F5EEE6;
+	background-color: #F3DBC7;
 	position: sticky;
 	top: 10;
 	left: 0;

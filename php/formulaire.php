@@ -11,7 +11,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['telephone'])
   $conn->exec($sql);
   echo "New record created successfully";
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $sql . "<br>" . $conn->$error;
 }
 ?>
 
