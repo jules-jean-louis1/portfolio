@@ -7,13 +7,15 @@
 	<title>Jules JEAN-LOUIS - Portefolio</title>
 	<link rel="icon" href="images-cv/JJL-logo19-black.png" type="image/icon type">
 	<link rel="stylesheet" href="style.css" />
+	<script defer src="script/script.js"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-	<header class="01">
-		<div class="nav-underline">
-			<nav class="navbar">
-				<div class="name">
-					<a href="#present">
+	<header class="shadow-lg ">
+		<div class="bg-blur-50 py-3 mx-4 flex flex-row justify-between border-b-1">
+            <div id="id-name"class="flex mx-2">
+                <div id="div" class="flex items-center">
+				<a href="#present">
 						<span class="svg_logo">
 							<svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
@@ -38,31 +40,32 @@
 							</svg>
 						</span>
 					</a>
-					<h2 id="nom">Jules JEAN-LOUIS</h2>
-					<h2 id="sous-titre">MAINTENACE INFORMATIQUE</h2>
-				</div>
-				<div class="navbar-sub">
-					<ul class="warp-header">
-						<li>
-							<a href="#section_projets" class="tut-animation-1">Projets</a>
-						</li>
-						<li>
-							<a href="#section_compétence" class="tut-animation-1">Compétence</a>
-						</li>
-						<li>
-							<a href="#section_compétence" class="tut-animation-1">Formation</a>
-						</li>
-						<li>
-							<a href="#section_compétence" class="tut-animation-1">Experience</a>
-						</li>
-						<li>
-							<a href="#section_contact" class="tut-animation-1">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<div class="scroller" style="opacity: 1;"></div>
-		</div>
+                    <ul class="flex flex-row hidden md:flex">
+                        <li>
+                            <h2 class="mx-2">Jules JEAN-LOUIS</h2>
+                        </li>
+                        <li>
+                            <h2 class="mx-2">Developper Web</h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex">
+                    <li class="mx-2">
+                        <a href="#section_projets" class="tut-animation-1">Projet</a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#section_compétence" class="tut-animation-1">Formation</a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#section_contact" class="tut-animation-1">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+		<div class="scroller"></div>
+		<div id="scrollbar" class ="mx-4"></div>
 	</header>
     <main>
 		<section class="present" id="present">
@@ -319,16 +322,5 @@
 			</div>
 		</div>
 	</footer>
-	<script>
-		const nav = document.querySelector(".scroller");
-	
-		window.addEventListener('scroll', () => {
-			if (window.scrollY >= 80) {
-				nav.classList.add('active_nav');
-			} else {
-				nav.classList.remove('active_nav');
-			}
-		})
-	  </script>
 </body>
 </html>
