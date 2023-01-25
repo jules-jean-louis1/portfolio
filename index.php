@@ -262,36 +262,36 @@
 				</div>
 				<div id="container">
 					<form action="#" method="post" id="contact_form">
-					  <div class="namec">
-						<label for="namec"></label>
-						<input type="text" placeholder="Nom" name="name" id="name_input" required>
-					  </div>
-					  <div class="email">
-						<label for="email"></label>
-						<input type="email" placeholder="E-mail" name="email" id="email_input" required>
-					  </div>
-					  <div class="telephone">
-						<label for="name"></label>
-						<input type="text" placeholder="Numéro" name="telephone" id="telephone_input" required>
-					  </div>
-					  <div class="subject">
-						<label for="subject"></label>
-						<select placeholder="Subject line" name="subject" id="subject_input" required>
-						  <option disabled hidden selected>Subject line</option>
-						  <option>Commencé un nouveau projet</option>
-						  <option>I'd like to ask a question</option>
-						  <option>I'd like to make a proposal</option>
-						</select>
-					  </div>
-					  <div class="message">
-						<label for="message"></label>
-						<textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
-					  </div>
-					  <div class="submit">
-						<input type="submit" value="Send Message" id="form_button" />
-					  </div>
+						<div class="namec">
+							<label for="namec"></label>
+							<input type="text" placeholder="Nom" name="name" id="name_input" required>
+						</div>
+						<div class="email">
+							<label for="email"></label>
+							<input type="email" placeholder="E-mail" name="email" id="email_input" required>
+						</div>
+						<div class="telephone">
+							<label for="name"></label>
+							<input type="text" placeholder="Numéro" name="telephone" id="telephone_input" required>
+						</div>
+						<div class="subject">
+							<label for="subject"></label>
+							<select placeholder="Subject line" name="subject" id="subject_input" required>
+								<option disabled hidden selected>Subject line</option>
+								<option>Commencé un nouveau projet</option>
+								<option>I'd like to ask a question</option>
+								<option>I'd like to make a proposal</option>
+							</select>
+						</div>
+						<div class="message">
+							<label for="message"></label>
+							<textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Send Message" id="form_button" />
+						</div>
 					</form>
-				  </div>
+				</div>
 			</div>
 		</section>
 	</main>
