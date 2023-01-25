@@ -42,10 +42,10 @@
 					</a>
                     <ul class="flex flex-row hidden md:flex">
                         <li>
-                            <h2 class="mx-2">Jules JEAN-LOUIS</h2>
+                            <h2 class="mx-2" id="nom">Jules JEAN-LOUIS</h2>
                         </li>
                         <li>
-                            <h2 class="mx-2">Developper Web</h2>
+                            <h2 class="mx-2" id="sous-titre">Développeur Web</h2>
                         </li>
                     </ul>
                 </div>
@@ -67,32 +67,60 @@
 		<div class="scroller"></div>
 		<div id="scrollbar" class ="mx-4"></div>
 	</header>
-    <main>
-		<section class="present" id="present">
-			<div class="sub-present">
-				<div class="box-subpresent">
-					
-					<div class="maintenace">
-						<div class="toptitle-element">
-							<span>Creatif.</span>
-						</div>
-						<h1 class="uppercase">
-							<span class="split" id="split_main">
-								<div class="line" style="transform: translate(0px, 0%);opacity: 1;">Web</div>
-							</span>
-							<span class="split" id="split_info">
-								<div  class="line" style="transform: translate(0px, 0%);opacity: 1;">Developper</div>
-							</span>
-						<h1>
-					</div>
-					<div class="sub2-present">
-						<p id="para-present"> Bonjour, je m'appelle Jules.</p>
-						<p>Je suis développeur Web. Consciencieux, motiver, discipliner, je suis passionné par les nouvelles technologies et leur fonctionnement.</p>
-						<button class="button-28" role="button"><a href="#section_contact">contacter-moi</a></button>
-					</div>
+    <main >
+		<article id="home-page">
+			<section class="mx-4" id="present">
+			<div class="flex items-center justify-end">
+				<div id="number" class="flex">
+					<h3>
+						<span>2</span>
+					</h3>
+					<h3>
+						<span>7</span>
+					</h3>
+				</div>
+				<div id="label" class="flex flex-col ml-4">
+					<span id="dateMoisAlt">Février</span>
+					<span>Recherche</span>
+					<span>Alternance</span>
 				</div>
 			</div>
-		</section>
+			<div class="flex">
+					<div class="">
+						<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#FFFFFF" stroke-width="2">
+                                    <path d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z" id="wrap-arrow1a"></path>
+                                </g>
+                            </g>
+                        </svg>
+					</div>
+					<div class=" mx-4 flex flex-col justify-between">
+						<h1>
+							<span>
+								Développeur Web
+							</span>
+						</h1>
+						<h1>
+							<span>
+								PHP, JS, HTML, CSS
+							</span>
+						</h1>
+					</div>
+				</div>
+				<div class="" id="home-page-title">
+					<h1 class="text-9xl">
+						<span id="">
+							Hello,
+						</span>
+					</h1>
+					<h1 class="text-9xl">
+						<span>
+							I 'am Jules
+						</span>
+				</div>
+			</section>
+		</article>
 		<section class="projet scroll_section" id="section_projets">
 			<div class="box-warpper-projet">
 				<div class="box-projet-title">

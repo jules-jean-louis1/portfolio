@@ -110,13 +110,11 @@ span.svg_logo {
 	margin: 2.5%;
 }
 #nom{
-	width: 142px;
     font-family: 'Abril Fatface', cursive;
     color: #fbfafb;
-    box-sizing: border-box;
 }
 #sous-titre{
-	width: 245px;
+	text-transform: uppercase;
 }
 .navbar-sub{
 	display: flex;
@@ -157,125 +155,33 @@ body{
 	
 }
 
-/* Section Présentation */
-.present{
-	margin-left: 1%;
-	margin-right: 1%;
-	width: 98%;
+/*#############################################################
+###############################################################
+################ H O M E - S E C T I O N ######################
+###############################################################
+###############################################################
+#############################################################*/
+
+#present{
     height: 100vh;
-    position: relative;
-	margin-top: 1%;
 }
-.sub-present {
-    position: absolute;
-    bottom: 28px;
-    left: 0;
-    right: 0;
-    align-items: flex-end;
-    justify-content: space-between;
+#home-page-title {
+	font-weight: 900;
 }
-.box-subpresent{
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-}
-.maintenace{
-	font-family: 'TuskerGrotesk-2600Semibold';
-	font-size: 12rem;
-	text-transform: uppercase;
-	margin-bottom: -2vw;
-}
-.toptitle-element{
-	font-size: 2.1vw;
-    margin-left: 0.4vw;
-    margin-bottom: -4vw;
-	color: #f3dbc7;
+#number{
+	margin: 0;
+	padding: 0;
+	font-size: 9em;
 	font-family: 'Abril Fatface', cursive;
 }
-.maintenace h1{
-	margin: 0px 0px 5px 0px;
-	padding-top: 2vh;
-	transform-origin: 0 50%;
-    white-space: nowrap;
-    will-change: transform;
-}
-[class*=box-subpresent] h1>span{
-	position: relative;
-}
-.maintenace h1 {
-	font-size: 15vw;
-	letter-spacing: 5px;
-}
-h1 [class*=split]:first-of-type {
-	transform: translateY(1vw);
-}
-h1 [class*=split]{
-	overflow: hidden;
-	display: flex;
-}
-#split_main, #split_info{
-	height: 364px;
-}
-.sub2-present {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-	width: 33%;
-    height: 20%;
-	text-transform: uppercase;
-}
-.sub2-present p{
+#number span{
 	margin: 0;
-	display: flex;
-	text-align: justify;
-	font-size: 1.875rem;
-	line-height: 1.3333;
+	padding: 0;
 }
-.button-28 {
-	text-transform: uppercase;
-  appearance: none;
-  background-color: transparent;
-  border: 2px solid #efefef;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color: #efefef;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  min-height: 60px;
-  min-width: 0;
-  outline: none;
-  padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
-  will-change: transform;
+#dateMoisAlt {
+	font-size: 1.5em;
+	font-family: 'Abril Fatface', cursive;
 }
-
-.button-28:disabled {
-  pointer-events: none;
-}
-
-.button-28:hover {
-  color: #ef0e3b;
-  background-color: #efefef;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.button-28:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-
 .projet{
 	background-color: #131313;
 	height: 100vh;
