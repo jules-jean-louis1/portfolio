@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 @font-face {
 	font-family: 'TuskerGrotesk-2600Semibold';
@@ -163,16 +164,27 @@ body{
 #############################################################*/
 
 #present{
-    height: 100vh;
+    height: 92vh;
+	background-color: #F8B21C;
 }
 #home-page-title {
 	font-weight: 900;
+	font-size: 9.5rem;
 }
 #number{
 	margin: 0;
 	padding: 0;
 	font-size: 9em;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Orbitron', sans-serif;
+}
+#dateAvailability {
+	top: 13%;
+	right: 20vw;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	z-index: 4;
+	height: 14%;
 }
 #number span{
 	margin: 0;
@@ -181,6 +193,15 @@ body{
 #dateMoisAlt {
 	font-size: 1.5em;
 	font-family: 'Abril Fatface', cursive;
+}
+#boldFontHome {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#infoPresentText{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
 }
 .projet{
 	background-color: #131313;

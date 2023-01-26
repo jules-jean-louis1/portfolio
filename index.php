@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="style.css" />
 	<script defer src="script/script.js"></script>
 	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://kit.fontawesome.com/8b26d30613.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header class="shadow-lg ">
@@ -69,55 +70,93 @@
 	</header>
     <main >
 		<article id="home-page">
-			<section class="mx-4" id="present">
-			<div class="flex items-center justify-end">
+			<section class="mx-4 flex" id="present">
+			<div class="flex items-center justify-end absolute" id="dateAvailability">
+				<div id="iconLinks">
+					<ul class="flex flex-col justify-start -mt-6 mr-4">
+						<li>
+							<a href="#">
+								<i class="fa-brands fa-square-github fa-2xl"></i>
+							</a>
+						</li>
+						<li class="my-2">
+							<a href="#">
+								<i class="fa-brands fa-linkedin fa-2xl"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
 				<div id="number" class="flex">
 					<h3>
-						<span>2</span>
-					</h3>
-					<h3>
-						<span>7</span>
+						<span>27</span>
 					</h3>
 				</div>
-				<div id="label" class="flex flex-col ml-4">
+				<div id="label" class="flex flex-col ml-4 mt-7">
 					<span id="dateMoisAlt">Février</span>
 					<span>Recherche</span>
-					<span>Alternance</span>
+					<span>d'une alternance</span>
 				</div>
 			</div>
-			<div class="flex">
-					<div class="">
-						<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#FFFFFF" stroke-width="2">
-                                    <path d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z" id="wrap-arrow1a"></path>
-                                </g>
-                            </g>
-                        </svg>
+			<div class="flex items-end justify-between w-full">
+					<div class="flex flex-col">
+						<div class="flex ml-2">
+								<div class="">
+									<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+										<g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#FFFFFF" stroke-width="2">
+												<path d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z" id="wrap-arrow1a"></path>
+											</g>
+										</g>
+									</svg>
+								</div>
+								<div class=" mx-4 flex flex-col justify-between">
+									<h1>
+										<span>
+											Développeur Web
+										</span>
+									</h1>
+									<h1>
+										<span>
+											PHP, JS, HTML, CSS
+										</span>
+									</h1>
+								</div>
+						</div>
+						<div class="" id="home-page-title">
+							<h1 class="-mt-6 -mb-9">
+								<span id="">
+									Hello,
+								</span>
+							</h1>
+							<h1 class="-mt-9 -mb-9">
+								<span>
+									I 'am Jules
+								</span>
+						</div>
 					</div>
-					<div class=" mx-4 flex flex-col justify-between">
-						<h1>
-							<span>
-								Développeur Web
+					<div class="flex flex-col py-4 ">
+						<p class="flex flex-col items-end" id="infoPresentText">
+							<span class="my-0.3">
+								Je m'appelle Jules Jean-louis
 							</span>
-						</h1>
-						<h1>
-							<span>
-								PHP, JS, HTML, CSS
+							<span class="my-0.3">
+								Je suis en recherche d'alernance dans le
 							</span>
-						</h1>
+							<span class="my-0.3">
+								<b id="boldFontHome">développement web</b>, je suis passionné par
+							</span>
+							<span class="my-0.3">
+								les nouvelles technologies. Découvrez les 
+							</span>
+							<span class="my-0.3">
+							<b id="boldFontHome">projets</b> que j'ai réalisés cette année.
+							</span>
+						</p>
+						<div class="btn mt-1">
+							<button class="border-2 rounded w-full py-4 uppercase"
+							>Contacter-Moi</button>
+						</div>
 					</div>
-				</div>
-				<div class="" id="home-page-title">
-					<h1 class="text-9xl">
-						<span id="">
-							Hello,
-						</span>
-					</h1>
-					<h1 class="text-9xl">
-						<span>
-							I 'am Jules
-						</span>
 				</div>
 			</section>
 		</article>
