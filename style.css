@@ -23,7 +23,6 @@ body{
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
     text-rendering: optimizeLegibility;
 }
 html {
@@ -228,14 +227,15 @@ body{
 	color: #D72926;
 }
 #imgwarpper img {
-	width: 100%;
-	height: 100%;
 	object-fit: cover;
 	object-position: center;
 }
+#imgContainer {
+	height: 20vh;
+	width: 35vw;
+}
 #projectWarpper #imgwarpper {
 	position: relative;
-	margin-bottom: 150px;
 }
 
 .box-warpper-projet{
