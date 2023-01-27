@@ -54,10 +54,10 @@
             <nav class="flex items-center">
                 <ul class="flex">
                     <li class="mx-2">
-                        <a href="#section_projets" class="tut-animation-1">Projet</a>
+                        <a href="#section_projets" class="tut-animation-1">A propos</a>
                     </li>
                     <li class="mx-2">
-                        <a href="#section_compétence" class="tut-animation-1">Formation</a>
+                        <a href="#section_compétence" class="tut-animation-1">Projets</a>
                     </li>
                     <li class="mx-2">
                         <a href="#section_contact" class="tut-animation-1">Contact</a>
@@ -68,7 +68,7 @@
 		<div class="scroller"></div>
 		<div id="scrollbar" class ="mx-4"></div>
 	</header>
-    <main >
+    <main>
 		<article id="home-page">
 			<section class="mx-4 flex" id="present">
 			<div class="flex items-center justify-end absolute" id="dateAvailability">
@@ -173,9 +173,55 @@
 				</div>
 			</section>
 		</article>
+        <article>
+            <section id="aboutME">
+                <div id="aboutContainer" class="flex justify-center items-center mx-9">
+                    <div id="aboutWarpper" class="flex w-6/12 gap-12">
+                        <div class="flex flex-col w-6/12">
+                            <div class="flex flex-col items-end" id="aboutMeTitle">
+                                <h2 class="uppercase text-4xl font-semibold flex flex-col text-end gap-y-3.5">
+                                    <span class="">
+                                        Bonjour, je m'appelle Jules
+                                    </span>
+                                </h2>
+                                <h6>
+                                    <span>
+                                        Jules JEAN-LOUIS
+                                    </span>
+                                </h6>
+                            </div>
+                            <div id="aboutText" class="flex justify-end items-end text-end uppercase mt-11">
+                                <p>
+                                <span>
+                                    Je suis un étudiant passionné de développement Web et mobile en recherche d'une alternance afin de me professionaliser. Avec mes connaissances en HTML, CSS, PHP, JavaScript, JQuery, Bootstrap et Tailwind, je suis prêt à intégrer une équipe et à développer mes compétences en utilisant les dernières technologies pour créer des solutions innovantes et performantes.
+                                </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="aboutTechno">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-code" id="iconCodeAbout"></i>
+                                <h2 class="ml-2 uppercase">
+                                    <span>
+                                        Langages
+                                    </span>
+                                </h2>
+                            </div>
+                            <div id="iconColorAbout" class="mt-4">
+                                <i class="fa-brands fa-html5 fa-2xl"></i>
+                                <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                                <i class="fa-brands fa-js fa-2xl"></i>
+                                <i class="fa-brands fa-php fa-2xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article>
 		<section class="projet scroll_section" id="section_projets">
 			<div class="box-warpper-projet">
-				<div class="flex items-center" id="fontSectionTitle">
+				<div class="flex items-center mb-8" id="fontSectionTitle">
 					<i class="fa-solid fa-laptop-code"></i>
 					<h2 class="text-3xl uppercase ml-2">Projets Sélectionner</h2>
 				</div>
@@ -230,7 +276,7 @@
 									Site de
 								</span>
                                 <span>
-                                    Destination
+                                    Voyage
                                 </span>
                             </h2>
                             <p class="flex flex-col ml-8">
@@ -272,132 +318,68 @@
 				</div>
 			</div>
 		</section>
-		<section id="section_compétence">
-			<div  class="competence" id="flex_compt">
-				<div class="competence_title">
-					<img src="images-cv/skill.png" alt="">
-					<h2>Compétence</h2>
-				</div>
-				<div class="box_compt">
-					<div class="warpper_compt">
-						<div class="box_1_compt_so">
-							<h4>service info.</h4>
-							<ul>Connaissance outils informatiques
-								<li>Changer ou réparer un élément ou un ensemble défectueux</li>
-								<li>Configurer le poste de travail aux besoins de l'utilisateur et effectuer les tests de fonctionnement</li>
-								<li>Diagnostiquer à distance un dysfonctionnement informatique matériel ou logiciel</li>
-								<li>Guider l'utilisateur pour résoudre le dysfonctionnement ou prendre le contrôle du système à distance</li>
-								<li>Identifier des ressources nécessaires à la résolution d'un dysfonctionnement</li>
-							</ul>
-						</div>
-					</div>
-					<div class="wapper_compt2">
-						<div class="box_2_compt_so">
-							<h4>Langague info</h4>
-							<ul style="padding-right: 40px; padding-left: 0px;">
-								<li>HTML - CSS</li>
-								<li>Python</li>
-								<li>PHP</li>
-								<li>Linux</li>
-							</ul>
-						</div>
-					</div>
-					<div class="warpper_compt">
-						<div class="box_1_compt_so">
-							<h4>Formation</h4>
-							<ul>
-								<li>2016 - Baccalauréat général série S Option ISN</li>
-								<li>2017 – 1er année licence mathématique-informatique</li>
-								<li>2018 – 1er année de licence de droit et science politique</li>
-								<li>2019 - 1er année de BTS - CRSA</li>
-								<li>2022 - Formation au Developpement Web</li>
-							</ul>
-						</div>
-					</div>
-					<div class="wapper_compt2">
-						<div class="box_2_compt_so">
-							<h4>Experience pro.</h4>
-							<p>Juin 2021-Mars 2022 manœuvre intérim</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contact" id="section_contact">
-			<div class="wapper_contact">
-				<div class="icon_wrapper">
-				  <svg class="icon" viewBox="0 0 145.192 145.192">
-					<path d="M126.82,32.694c-2.804,0-5.08,2.273-5.08,5.075v2.721c-1.462,0-2.646,1.185-2.646,2.647v1.995    c0,1.585,1.286,2.873,2.874,2.873h20.577c1.462,0,2.646-1.185,2.646-2.647v-3.041c0-1.009-0.816-1.825-1.823-1.825v-2.722    c0-2.802-2.276-5.075-5.079-5.075h-1.985v-3.829c0-3.816-3.095-6.912-6.913-6.912h-0.589h-20.45c0-2.67-2.164-4.835-4.833-4.835    H56.843c-2.67,0-4.835,2.165-4.835,4.835H34.356v-3.384h-9.563v3.384v1.178h-7.061v1.416c-2.67,0.27-10.17,1.424-13.882,5.972    c-1.773,2.17-2.44,4.791-1.983,7.793c0.463,3.043,1.271,6.346,2.128,9.841c2.354,9.616,5.024,20.515,0.549,28.077    C2.647,79.44-3.125,90.589,2.201,99.547c4.123,6.935,13.701,10.44,28.5,10.44c1.186,0,2.405-0.023,3.658-0.068v9.028h-0.296    c-2.516,0-4.558,2.039-4.558,4.558v4.566h100.04v-4.564c0-2.519-2.039-4.558-4.558-4.558h-0.297V84.631h0.297    c2.519,0,4.558-2.037,4.558-4.556v-0.009c0-2.516-2.039-4.556-4.556-4.556l-36.786-0.009V61.973c0-2.193-1.777-3.971-3.972-3.971    v-4.711h0.456c1.629,0,2.952-1.32,2.952-2.949h14.227V34.459h1.658c2.672,0,4.834-2.165,4.834-4.834h20.45v3.069H126.82z     M34.06,75.511c-2.518,0-4.558,2.04-4.558,4.556v0.009c0,2.519,2.042,4.556,4.558,4.556h0.296v24.12l-0.042-1.168    c-15.994,0.574-26.122-2.523-30.106-9.229C-0.464,90.5,4.822,80.347,6.55,77.423c4.964-8.382,2.173-19.774-0.29-29.825    c-0.843-3.442-1.639-6.696-2.088-9.638c-0.354-2.35,0.129-4.3,1.484-5.958c3.029-3.714,9.509-4.805,12.076-5.1v1.233h7.061v1.49    v2.684c-2.403,1.114-4.153,2.997-4.676,5.237H18.15c-0.584,0-1.056,0.474-1.056,1.056v0.83c0,0.584,0.475,1.056,1.056,1.056h1.984    c0.561,2.18,2.304,3.999,4.658,5.092v0.029c0,0-2.282,20.823,16.479,22.099v1.102c0,1.177,0.955,2.133,2.133,2.133h3.297    c1.178,0,2.133-0.956,2.133-2.133V50.135c0-1.177-0.955-2.132-2.133-2.132h-3.297c-1.178,0-2.133,0.955-2.133,2.132    c-1.575-0.235-5.532-1.17-6.635-4.547c2.36-1.092,4.109-2.913,4.669-5.097h1.308c0.722,0,1.309-0.584,1.309-1.308v-0.578    c0-0.584-0.475-1.056-1.056-1.056h-1.539c-0.542-2.332-2.416-4.271-4.968-5.363v-2.559h17.651c0,2.67,2.166,4.835,4.836,4.835 h2.392v15.88h13.639c0,1.629,1.321,2.949,2.951,2.949h0.899v4.711c-2.194,0-3.972,1.778-3.972,3.971v13.529L34.06,75.511z     M95.188,101.78c0,8.655-7.012,15.665-15.664,15.665c-8.653,0-15.667-7.01-15.667-15.665c0-8.647,7.014-15.664,15.667-15.664    C88.177,86.116,95.188,93.132,95.188,101.78z M97.189,45.669h-9.556c0-0.896-0.726-1.62-1.619-1.62H74.494    c-0.896,0-1.621,0.727-1.621,1.62h-8.967v-11.21h33.283V45.669z"></path>
-					<path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
-				  </svg>
-				</div>
-				<h2>Contact</h2>
-			</div>
-			<div class="contact_flex">
-				<div class="text_contactme">
-					<h1 class="uppercase">
-						<span class="split_c1" id="split_main">
-							<div class="line" style="transform: translate(0px, 0%);opacity: 1;">Contacter-Moi</div>
-						</span>
-					<h1>
-				</div>
-				<div id="container">
-					<form action="#" method="post" id="contact_form">
-					  <div class="namec">
-						<label for="namec"></label>
-						<input type="text" placeholder="Nom" name="name" id="name_input" required>
-					  </div>
-					  <div class="email">
-						<label for="email"></label>
-						<input type="email" placeholder="E-mail" name="email" id="email_input" required>
-					  </div>
-					  <div class="telephone">
-						<label for="name"></label>
-						<input type="text" placeholder="Numéro" name="telephone" id="telephone_input" required>
-					  </div>
-					  <div class="subject">
-						<label for="subject"></label>
-						<select placeholder="Subject line" name="subject" id="subject_input" required>
-						  <option disabled hidden selected>Subject line</option>
-						  <option>Commencé un nouveau projet</option>
-						  <option>I'd like to ask a question</option>
-						  <option>I'd like to make a proposal</option>
-						</select>
-					  </div>
-					  <div class="message">
-						<label for="message"></label>
-						<textarea name="message" placeholder="Message" id="message_input" cols="30" rows="5" required></textarea>
-					  </div>
-					  <div class="submit">
-						<input type="submit" value="Send Message" id="form_button" />
-					  </div>
-					</form>
-				  </div>
-			</div>
-		</section>
+        </article>
+        <article>
+            <section class="contact" id="section_contact">
+                <div class="wapper_contact">
+                    <div class="icon_wrapper">
+                      <svg class="icon" viewBox="0 0 145.192 145.192">
+                        <path d="M126.82,32.694c-2.804,0-5.08,2.273-5.08,5.075v2.721c-1.462,0-2.646,1.185-2.646,2.647v1.995    c0,1.585,1.286,2.873,2.874,2.873h20.577c1.462,0,2.646-1.185,2.646-2.647v-3.041c0-1.009-0.816-1.825-1.823-1.825v-2.722    c0-2.802-2.276-5.075-5.079-5.075h-1.985v-3.829c0-3.816-3.095-6.912-6.913-6.912h-0.589h-20.45c0-2.67-2.164-4.835-4.833-4.835    H56.843c-2.67,0-4.835,2.165-4.835,4.835H34.356v-3.384h-9.563v3.384v1.178h-7.061v1.416c-2.67,0.27-10.17,1.424-13.882,5.972    c-1.773,2.17-2.44,4.791-1.983,7.793c0.463,3.043,1.271,6.346,2.128,9.841c2.354,9.616,5.024,20.515,0.549,28.077    C2.647,79.44-3.125,90.589,2.201,99.547c4.123,6.935,13.701,10.44,28.5,10.44c1.186,0,2.405-0.023,3.658-0.068v9.028h-0.296    c-2.516,0-4.558,2.039-4.558,4.558v4.566h100.04v-4.564c0-2.519-2.039-4.558-4.558-4.558h-0.297V84.631h0.297    c2.519,0,4.558-2.037,4.558-4.556v-0.009c0-2.516-2.039-4.556-4.556-4.556l-36.786-0.009V61.973c0-2.193-1.777-3.971-3.972-3.971    v-4.711h0.456c1.629,0,2.952-1.32,2.952-2.949h14.227V34.459h1.658c2.672,0,4.834-2.165,4.834-4.834h20.45v3.069H126.82z     M34.06,75.511c-2.518,0-4.558,2.04-4.558,4.556v0.009c0,2.519,2.042,4.556,4.558,4.556h0.296v24.12l-0.042-1.168    c-15.994,0.574-26.122-2.523-30.106-9.229C-0.464,90.5,4.822,80.347,6.55,77.423c4.964-8.382,2.173-19.774-0.29-29.825    c-0.843-3.442-1.639-6.696-2.088-9.638c-0.354-2.35,0.129-4.3,1.484-5.958c3.029-3.714,9.509-4.805,12.076-5.1v1.233h7.061v1.49    v2.684c-2.403,1.114-4.153,2.997-4.676,5.237H18.15c-0.584,0-1.056,0.474-1.056,1.056v0.83c0,0.584,0.475,1.056,1.056,1.056h1.984    c0.561,2.18,2.304,3.999,4.658,5.092v0.029c0,0-2.282,20.823,16.479,22.099v1.102c0,1.177,0.955,2.133,2.133,2.133h3.297    c1.178,0,2.133-0.956,2.133-2.133V50.135c0-1.177-0.955-2.132-2.133-2.132h-3.297c-1.178,0-2.133,0.955-2.133,2.132    c-1.575-0.235-5.532-1.17-6.635-4.547c2.36-1.092,4.109-2.913,4.669-5.097h1.308c0.722,0,1.309-0.584,1.309-1.308v-0.578    c0-0.584-0.475-1.056-1.056-1.056h-1.539c-0.542-2.332-2.416-4.271-4.968-5.363v-2.559h17.651c0,2.67,2.166,4.835,4.836,4.835 h2.392v15.88h13.639c0,1.629,1.321,2.949,2.951,2.949h0.899v4.711c-2.194,0-3.972,1.778-3.972,3.971v13.529L34.06,75.511z     M95.188,101.78c0,8.655-7.012,15.665-15.664,15.665c-8.653,0-15.667-7.01-15.667-15.665c0-8.647,7.014-15.664,15.667-15.664    C88.177,86.116,95.188,93.132,95.188,101.78z M97.189,45.669h-9.556c0-0.896-0.726-1.62-1.619-1.62H74.494    c-0.896,0-1.621,0.727-1.621,1.62h-8.967v-11.21h33.283V45.669z"></path>
+                        <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
+                      </svg>
+                    </div>
+                    <h2>Contact</h2>
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+        </article>
 	</main>
 	<footer>
-		<div class="boxwarpper">
-			<div class="img_footer_1">
-				<img src="images-cv/JJL-logo19-black.png" alt="">
-			</div>
-			<div class="social-icone">
-				<ul>
-					<li id="roundsocial"><a href="#" class="icon-26 twitter" title="Twitter"><svg viewBox="0 0 512 512"><path  id="color_svg_foot"  d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg></a></li>
-					<li id="roundsocial"><a href="https://github.com/jules-jean-louis1" class="icon-13 github" title="GitHub"><svg viewBox="0 0 512 512"><path id="color_svg_foot" d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"/></svg></a></li>
-					<li id="roundsocial"><a href="#" class="icon-17 linkedin" title="LinkedIn"><svg viewBox="0 0 512 512"><path id="color_svg_foot" d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/></svg></a></li>
-				</ul>
-			</div>
-			<div class="menu">
-				<ul>
-					<li>Présentation</li>
-					<li>Formation</li>
-					<li>Experience professionelle</li>
-					<li>Compétence</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-		</div>
+        <div class="w-full">
+            <div id="containerFooter" class="flex justify-around items-center py-9 px-4">
+                <div class="flex flex-col ">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-arrow-right" id="iconColorFooter"></i>
+                        <h2 class="uppercase ml-4" id="h2footerContact">Contacter-moi</h2>
+                    </div>
+                    <div class="flex items-center">
+                        <p>
+                            <span>
+                                jules.jean-louis@laplateforme.io
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div id="socialLinks" class="flex flex-row justify-center items-center ">
+                    <ul class="flex justify-around">
+                        <li class="mx-2">
+                            <a href="#" target="_blank" id="colorFontFooter">
+                                Github
+                            </a>
+                        </li>
+                        <li class="mx-2">
+                            <a href="https://www.linkedin.com/in/alexandre-bertrand-1b1b1b1b1/" target="_blank" id="colorFontFooter">
+                                Linkedin
+                            </a>
+                        </li>
+                        <li class="mx-2">
+                            <a href="#" id="colorFontFooter">
+                                Telecharger CV
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="backToTheTopCont" class="">
+                    <div>
+                        <a href="#top" id="colorFontFooter">
+                            <span>Back to the top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</footer>
 </body>
 </html>

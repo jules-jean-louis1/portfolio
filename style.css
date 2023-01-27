@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
 	font-family: 'TuskerGrotesk-2600Semibold';
@@ -19,6 +20,7 @@ body{
 	padding: 0;
 	background-color: #1a1a1a;
 	color: #f5eee6;
+	width: 100vw;
 }
 * {
 	margin: 0;
@@ -212,9 +214,49 @@ body{
 	overflow: hidden;
 	box-sizing: border-box;
 }
-.projet{
+/*#############################################################
+###############################################################
+################ A B O U T - S E C T I O N ######################
+###############################################################
+###############################################################
+#############################################################*/
+#aboutME {
 	background-color: #131313;
 	height: 100vh;
+}
+#iconColorAbout {
+	color: #fbfafb;
+}
+#aboutContainer{
+	padding-top: 10%;
+}
+#aboutMeTitle h2{
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 3.2rem;
+}
+#aboutMeTitle h6{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-family: 'Abril Fatface', cursive;
+	color: #ef0e3b;
+}
+#aboutText p{
+	font-size: 1.2em;
+	font-family: 'Poppins', sans-serif;
+}
+#aboutTechno h2{
+	font-size: 2.5rem;
+	font-weight: 900;
+	line-height: 3.2rem;
+}
+#iconCodeAbout{
+	font-size: 2.5rem;
+	color: #fbfafb;
+}
+#iconColorAbout{
+	font-size: 2.5rem;
+	color: #fbfafb;
 }
 /*#############################################################
 ###############################################################
@@ -222,7 +264,10 @@ body{
 ###############################################################
 ###############################################################
 #############################################################*/
-
+.projet{
+	background-color: #131313;
+	height: 140vh;
+}
 .fa-laptop-code{
 	font-size: 2.5rem;
 	color: #fbfafb;
@@ -241,8 +286,7 @@ body{
 
 
 .box-warpper-projet{
-	margin: 10%;
-	padding-bottom: 50px;
+	padding: 10%;
 }
 .scroll_projet {
 	display: flex;
@@ -612,11 +656,16 @@ a:visited{
     position: absolute;
 }
 /*********************************** CONTACT ******************************/
-
+/*#############################################################
+###############################################################
+################ Contact - S E C T I O N ######################
+###############################################################
+###############################################################
+#############################################################*/
 
 .contact{
 	background-color: #131313;
-	height: 80vh;
+	height: 100vh;
 }
 .wapper_contact {
 	margin-left: 10%;
@@ -644,273 +693,34 @@ a:visited{
 	font-size: 2.1vw;
     margin-left: 0.4vw;
 	margin: 0;
-    /* font-family: 'Abril Fatface', cursive; */
-    font-family: 'EB Garamond', serif;
+    font-family: 'Abril Fatface', cursive;
     font-weight: 800;
     color: #F5EEE6;
 	text-transform: uppercase;
 }
-.split_c1 {
-	font-size: 12vw;
-    letter-spacing: 2px;
-}
-.split_c2 {
-	font-size: 15vw;
-    letter-spacing: 15px;
-}
-.text_contactme h1 {
-	font-family: 'TuskerGrotesk-2600Semibold';
-    margin: 0px 0px 5px 0px;
-    padding-top: 2vh;
-    transform-origin: 0 50%;
-    white-space: nowrap;
-    will-change: transform;
-	text-transform: uppercase;
-}
-.text_contactme {
-    display: flex;
-    align-items: flex-end;
-}
-#container button {
-	overflow: visible;
-}
 
-#container button, #container select {
-	text-transform: none;
-}
-
-#container button, #container input, #container select, #container textarea {
-	color: #5A5A5A;
-	font: inherit;
-	margin: 0;
-}
-
-#container input {
-	line-height: normal;
-}
-
-#container textarea {
-	overflow: auto;
-}
-
-#container {
-	border: solid 3px #f5eee6;
-	border-radius: 24px;
-	width: 90%;
-}
-
-#container form {
-	padding: 37.5px;
-	margin: 50px 0;
-}
-
-.email {
-float: right;
-width: 45%;
-}
-
-#container input[type='text'], [type='email'], select, textarea {
-background: none;
-border: none;
-border-bottom: solid 2px #474544;
-color: #474544;
-font-size: 1.000em;
-font-weight: 400;
-letter-spacing: 1px;
-margin: 0em 0 1.875em 0;
-padding: 0 0 0.875em 0;
-text-transform: uppercase;
-width: 100%;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
--ms-box-sizing: border-box;
--o-box-sizing: border-box;
-box-sizing: border-box;
--webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
--ms-transition: all 0.3s;
--o-transition: all 0.3s;
-transition: all 0.3s;
-}
-
-#container input[type='text']:focus, [type='email']:focus, textarea:focus {
-outline: none;
-padding: 0 0 0.875em 0;
-}
-
-.message {
-float: none;
-}
-
-.namec {
-float: left;
-width: 45%;
-}
-
-#subject_input{
-	background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
-	outline: none;
-
-}
-
-#container  select::-ms-expand {
-	display: none;
-}
-
-.subject {
-	width: 100%;
-}
-
-.telephone {
-	width: 100%;
-}
-
-#container  textarea {
-line-height: 150%;
-height: 150px;
-resize: none;
-	width: 100%;
-}
-
-::-webkit-input-placeholder {
-color: #474544;
-}
-
-:-moz-placeholder { 
-color: #474544;
-opacity: 1;
-}
-
-::-moz-placeholder {
-color: #474544;
-opacity: 1;
-}
-
-:-ms-input-placeholder {
-color: #474544;
-}
-
-#form_button {
-    background: none;
-    border: solid 2px #f5eee6;
-    border-radius: 50px;
-    color: #f5eee6;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    outline: none;
-    padding: 20px 35px;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-#form_button:hover {
-	background: #474544;
-	color: #F2F3EB;
-}
-
-@media screen and (max-width: 768px) {
-	#container {
-margin: 20px auto;
-width: 95%;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	#container h1 {
-	font-size: 26px;
-}
-	
-.underline {
-	width: 68px;
-}
-	
-#form_button {
-padding: 15px 25px;
-}
-}
-
-@media screen and (max-width: 420px) {
-#container h1 {
-	font-size: 18px;
-}
-	
-.icon {
-	height: 35px;
-	width: 35px;
-}
-	
-.underline {
-	width: 53px;
-}
-	
-#container	input[type='text'], [type='email'], select, textarea {
-	font-size: 0.875em;
-}
-}
-/* FOOTER */
+/*#############################################################
+###############################################################
+############ F O O T E R - S E C T I O N ######################
+###############################################################
+###############################################################
+#############################################################*/
 footer{
 	background-color: #f5eee6;
-	color: #1a1a1a;
+	color: #131313;
 	max-height: 300px;
+	font-family: 'Montserrat', sans-serif;
 }
-footer ul{
-	margin: 0px;
+#containerFooter #backToTheTopCont{
+	color: #131313;
 }
-.boxwarpper{
-	margin-left: 15%;
-	margin-right: 15%;
-	display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-	flex-direction: row;
-	height: 250px;
+#colorFontFooter{
+	color: #131313;
 }
-.img_footer_1 {
-	box-sizing: border-box;
-	width: 20%;
-	height: auto;
+#iconColorFooter{
+	color: #131313;
 }
-.img_footer_1 img{
-	width: 65%;
-}
-#color_svg_foot{
-	fill: #FADEBD;
-}
-#color_svg_foot:hover{
-	fill: #323744;
-	transform: translateY(1rem);
-    transition: all 150ms ease 100ms;
-}
-#roundsocial{
-	width: 42px;
-	height: 42px;
-	background-color: #323744;
-	backdrop-filter: Blur(2px);
-	border-radius: 10px;
-	margin-bottom: 8px;
-}
-#roundsocial:hover{
-	background-color: #FADEBD;
-}
-.social-icone{
-	display: flex;
-}
-.social-icone ul{
-	padding: 0px;
-	justify-content: space-around;
-	gap: 20px;
-}
-.menu{
-	display: flex;
-}
-.menu ul{
-
-    gap: 50px;
-    text-transform: uppercase;
+#h2footerContact {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6em;
 }
