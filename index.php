@@ -16,7 +16,7 @@
 		<div class="bg-blur-50 py-3 mx-4 flex flex-row justify-between border-b-1" id="navbar-container">
             <div id="id-name"class="flex mx-2">
                 <div id="div" class="flex items-center">
-				<a href="#present">
+				<a href="#top">
 						<span class="svg_logo">
 							<svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
@@ -54,10 +54,10 @@
             <nav class="flex items-center">
                 <ul class="flex">
                     <li class="mx-2">
-                        <a href="#section_projets" class="tut-animation-1">A propos</a>
+                        <a href="#aboutME" class="tut-animation-1">A propos</a>
                     </li>
                     <li class="mx-2">
-                        <a href="#section_compétence" class="tut-animation-1">Projets</a>
+                        <a href="#section_projets" class="tut-animation-1">Projets</a>
                     </li>
                     <li class="mx-2">
                         <a href="#section_contact" class="tut-animation-1">Contact</a>
