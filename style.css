@@ -20,7 +20,6 @@ body{
 	padding: 0;
 	background-color: #1a1a1a;
 	color: #f5eee6;
-	width: 100vw;
 }
 * {
 	margin: 0;
@@ -222,7 +221,8 @@ body{
 #############################################################*/
 #aboutME {
 	background-color: #131313;
-	height: 100vh;
+	height: 75vh;
+	width: 100%;
 }
 #iconColorAbout {
 	color: #fbfafb;
@@ -665,39 +665,28 @@ a:visited{
 
 .contact{
 	background-color: #131313;
-	height: 100vh;
+	height: 40vh;
 }
-.wapper_contact {
+#wapper_contact {
 	margin-left: 10%;
     margin-right: 10%;
 	display: flex;
 }
-.contact_flex {
-	margin-left: 10%;
-	margin-right: 10%;
-	display: flex;
-    justify-content: space-around;
-	gap: 5vh;
-}
-.icon_wrapper {
-    width: 5%;
-}
 
-.icon {
-	fill: #f3dbc7;
-	height: 50px;
-	margin: 0 auto;
-	width: 50px;
-}
-.wapper_contact h2 {
+#wapper_contact h2 {
 	font-size: 2.1vw;
     margin-left: 0.4vw;
 	margin: 0;
-    font-family: 'Abril Fatface', cursive;
+	font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #F5EEE6;
 	text-transform: uppercase;
 }
+#iconContact {
+	width: 2.5rem;
+}
+
+
 
 /*#############################################################
 ###############################################################

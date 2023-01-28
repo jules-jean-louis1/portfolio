@@ -37,23 +37,6 @@ function stopMarquee() {
 button.addEventListener("mouseover", startMarquee);
 button.addEventListener("mouseout", stopMarquee);
 
-//Svg animation pour afficher les projets
-let spinningProject = document.getElementById("spinningProject");
-let animation = spinningProject.animate([
-    { transform: 'rotate(0deg)' },
-    { transform: 'rotate(360deg)' }
-], { 
-    duration: 4500, 
-    iterations: Infinity 
-});
-
-spinningProject.addEventListener('pointerover', function() {
-    animation.pause();
-});
-
-spinningProject.addEventListener('pointerout', function() {
-    animation.play();
-});
 
 //Afficher une image au survol du projet
 
