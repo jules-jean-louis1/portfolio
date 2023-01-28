@@ -13,8 +13,8 @@
 </head>
 <body>
 	<header class="shadow-lg ">
-		<div class="bg-blur-50 py-3 mx-4 flex flex-row justify-between border-b-1" id="navbar-container">
-            <div id="id-name"class="flex mx-2">
+		<div class="bg-blur-50 py-3 mx-4 flex flex-row justify-between border-b-1 sm:px-6 md:px-8 lg:px-10 xl:px-12" id="navbar-container">
+            <div id="id-name"class="flex mx-2 sm:mx-0">
                 <div id="div" class="flex items-center">
 				<a href="#top">
 						<span class="svg_logo">
@@ -70,10 +70,10 @@
 	</header>
     <main class="w-full">
 		<article id="home-page">
-			<section class="mx-4 flex md:flex-col" id="present">
-			<div class="flex items-center justify-end absolute md:flex-col" id="dateAvailability">
+			<section class="mb:flex mb:flex-col " id="present">
+			<div class="mb:flex" id="dateAvailability">
 				<div id="iconLinks">
-					<ul class="flex flex-col justify-start -mt-6 mr-4">
+					<ul class="mb:flex mb:flex-col mb:items-center">
 						<li>
 							<a href="https://github.com/jules-jean-louis1">
 								<i class="fa-brands fa-square-github fa-2xl"></i>
@@ -86,7 +86,7 @@
 						</li>
 					</ul>
 				</div>
-				<div id="number" class="flex">
+				<div id="number" class=" ">
 					<h3>
 						<span>27</span>
 					</h3>
@@ -97,9 +97,9 @@
 					<span>d'une alternance</span>
 				</div>
 			</div>
-			<div class="flex items-end justify-between w-full">
-					<div class="flex flex-col">
-						<div class="flex ml-2">
+			<div class="" id="warppermobile">
+					<div class="">
+						<div class="">
 								<div class="">
 									<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 										<g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -109,7 +109,7 @@
 										</g>
 									</svg>
 								</div>
-								<div class=" mx-4 flex flex-col justify-between">
+								<div class="">
 									<h1>
 										<span>
 											Développeur Web
@@ -123,19 +123,19 @@
 								</div>
 						</div>
 						<div class="" id="home-page-title">
-							<h1 class="-mt-6 -mb-9">
+							<h1 class="">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="-mt-9 -mb-9">
+							<h1 class="">
 								<span>
 									I 'am Jules
 								</span>
 						</div>
 					</div>
-					<div class="flex flex-col py-4 ">
-						<p class="flex flex-col items-end" id="infoPresentText">
+					<div class="">
+						<p class="" id="infoPresentText">
 							<span class="my-0.3">
 								Je m'appelle Jules Jean-louis
 							</span>
@@ -164,11 +164,11 @@
 		</article>
         <article>
             <section id="aboutME">
-                <div id="aboutContainer" class="flex justify-center items-center mx-9">
-                    <div id="aboutWarpper" class="flex w-6/12 gap-12">
-                        <div class="flex flex-col w-6/12">
-                            <div class="flex flex-col items-end" id="aboutMeTitle">
-                                <h2 class="uppercase text-4xl font-semibold flex flex-col text-end gap-y-3.5">
+                <div id="aboutContainer" class="">
+                    <div id="aboutWarpper" class="">
+                        <div class="">
+                            <div class="" id="aboutMeTitle">
+                                <h2 class="">
                                     <span class="">
                                         Bonjour, je m'appelle Jules
                                     </span>
@@ -179,7 +179,7 @@
                                     </span>
                                 </h6>
                             </div>
-                            <div id="aboutText" class="flex justify-end items-end text-end uppercase mt-11">
+                            <div id="aboutText" class="">
                                 <p>
                                 <span>
                                     Je suis un étudiant passionné de développement Web et mobile en recherche d'une alternance afin de me professionaliser. Avec mes connaissances en HTML, CSS, PHP, JavaScript, JQuery, Bootstrap et Tailwind, je suis prêt à intégrer une équipe et à développer mes compétences en utilisant les dernières technologies pour créer des solutions innovantes et performantes.
@@ -365,13 +365,13 @@
 	</main>
 	<footer>
         <div class="w-full">
-            <div id="containerFooter" class="flex justify-around items-center py-9 px-4">
-                <div class="flex flex-col ">
-                    <div class="flex items-center">
+            <div id="containerFooter" class="">
+                <div class="">
+                    <div class="">
                         <i class="fa-solid fa-arrow-right" id="iconColorFooter"></i>
                         <h2 class="uppercase ml-4" id="h2footerContact">Contacter-moi</h2>
                     </div>
-                    <div class="flex items-center">
+                    <div class="">
                         <p>
                             <span>
                                 jules.jean-louis@laplateforme.io
@@ -379,8 +379,8 @@
                         </p>
                     </div>
                 </div>
-                <div id="socialLinks" class="flex flex-row justify-center items-center ">
-                    <ul class="flex justify-around">
+                <div id="socialLinks" class=" ">
+                    <ul class="">
                         <li class="mx-2">
                             <a href="#" target="_blank" id="colorFontFooter">
                                 Github
