@@ -70,8 +70,8 @@
 	</header>
     <main class="w-full">
 		<article id="home-page">
-			<section class="mx-4 flex" id="present">
-			<div class="flex items-center justify-end absolute" id="dateAvailability">
+			<section class="mx-4 flex md:flex-col" id="present">
+			<div class="flex items-center justify-end absolute md:flex-col" id="dateAvailability">
 				<div id="iconLinks">
 					<ul class="flex flex-col justify-start -mt-6 mr-4">
 						<li>

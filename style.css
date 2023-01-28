@@ -13,7 +13,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
+	outline: solid 1px red;
 }
 
 html {
@@ -48,9 +48,8 @@ header {
 	height: 2px;
 	background-color: #F3DBC7;
 	position: sticky;
-	top: 10;
 	left: 0;
-	max-width: 98.12%;
+	max-width: 98.30%;
 	border-radius: 20px;
   }
 
@@ -58,9 +57,7 @@ header .active_nav {
     transition: 200ms cubic-bezier(0.67, 0.15, 0.77, 0.71);
     position: absolute;
     top: 0;
-    left: -28px;
     bottom: 0;
-    right: -28px;
 }
 .active_nav {
     position: absolute;
@@ -68,6 +65,7 @@ header .active_nav {
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     z-index: -1;
+	width: 100%;
 }
 .active_nav .nav_links a,
 .active_nav .logo {
@@ -243,7 +241,7 @@ span.svg_logo {
 #############################################################*/
 .projet {
 	background-color: #131313;
-	height: 140vh;
+	height: 150vh;
 }
 .fa-laptop-code{
 	font-size: 2.5rem;
@@ -260,7 +258,9 @@ span.svg_logo {
 #projectWarpper {
 	margin: 4rem 0;
 }
-
+#fontSectionTitle {
+	padding-bottom: 5%;
+}
 
 .box-warpper-projet{
 	padding: 10%;
@@ -285,7 +285,6 @@ span.svg_logo {
 
 #wapper_contact h2 {
 	font-size: 2.1vw;
-    margin-left: 0.4vw;
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -321,4 +320,15 @@ footer{
 #h2footerContact {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.6em;
+}
+/*#############################################################
+###############################################################
+############ RESPONSIVE DESIGN ######################
+###############################################################
+###############################################################
+#############################################################*/
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+	/* Add mobile-specific styles here */
 }
