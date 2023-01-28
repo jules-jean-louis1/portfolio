@@ -29,8 +29,9 @@ body{
 	padding: 0;
 	color: #f5eee6;
 	/* background-image: url(images-test/pexels-pixabay-159862.jpg); */
-	background-size: cover;
-	background: url(images-cv/bg---3.jpg) no-repeat fixed;
+	background: url(images-test/dfc0d8656b96a0b3fb72a83713b23c45.jpg) no-repeat fixed; 
+	/* background: url(images-cv/bg---3.jpg) no-repeat fixed; */
+	/* background: url(images-test/background-1.jpg) no-repeat fixed; */
 }
 
 header {
@@ -146,6 +147,7 @@ span.svg_logo {
 #present{
     height: 92vh;
 /* 	background-color: #F8B21C; */
+	background-color: rgba(19,19,19,.05);
 }
 #home-page-title {
 	font-weight: 900;
@@ -195,10 +197,12 @@ span.svg_logo {
 #############################################################*/
 
 #aboutME {
-	background-color: #131313;
+	/* background-color: rgba(19,19,19,0.90); */
 	height: 75vh;
 	width: 100%;
+	background: url(images-test/Sans\ titre-1.png) no-repeat;
 }
+
 #iconColorAbout {
 	color: #fbfafb;
 }
@@ -240,7 +244,7 @@ span.svg_logo {
 ###############################################################
 #############################################################*/
 .projet {
-	background-color: #131313;
+	background-color: rgba(19,19,19,0.90);
 	height: 150vh;
 }
 .fa-laptop-code{
@@ -274,7 +278,7 @@ span.svg_logo {
 #############################################################*/
 
 .contact{
-	background-color: #131313;
+	background-color: rgba(19,19,19,0.90);
 	height: 40vh;
 }
 #wapper_contact {
@@ -303,8 +307,8 @@ span.svg_logo {
 ###############################################################
 #############################################################*/
 footer{
-	background-color: #f5eee6;
-	color: #131313;
+	background-color: rgba(19,19,19,0.90);
+	box-shadow: #F5EEE6 1px 1px 1px 1px;
 	max-height: 300px;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -321,6 +325,16 @@ footer{
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.6em;
 }
+
+/*#############################################################
+###############################################################
+############ Gradiant Background ######################
+###############################################################
+###############################################################
+#############################################################*/
+
+
+
 /*#############################################################
 ###############################################################
 ############ RESPONSIVE DESIGN ######################

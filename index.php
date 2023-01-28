@@ -164,7 +164,7 @@
 		</article>
         <article>
             <section id="aboutME">
-                <div id="aboutContainer" class="flex justify-center items-center mx-9">
+                <div id="aboutContainer" class="flex justify-center items-center">
                     <div id="aboutWarpper" class="flex w-6/12 gap-12">
                         <div class="flex flex-col w-6/12">
                             <div class="flex flex-col items-end" id="aboutMeTitle">
