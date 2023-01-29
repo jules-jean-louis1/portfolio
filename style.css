@@ -288,6 +288,14 @@ img#importSVGLogo {
 #subTitleDescro span {
 	color: hsla(0, 0%, 100%, 0.4);
 }
+#imgwarpper a {
+	opacity: 0.5;
+
+}
+#imgwarpper a:hover {
+	opacity: 1.5;
+	transition: all 0.5s ease;
+}
 /*#############################################################
 ###############################################################
 ################ Contact - S E C T I O N ######################

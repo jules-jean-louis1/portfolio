@@ -246,12 +246,16 @@
 							</p>
 						</div>
                         <div id="imgwarpper">
-                            <img src="images-cv/projet/livre-or.jpg" alt="" id="imgContainer">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/livreor/index.php">
+                                <img src="images-cv/projet/livre-or.jpg" alt="" id="imgContainer">
+                            </a>
                         </div>
 					</div>
                     <div id="projectWarpper" class="flex items-center justify-center gap-x-6">
                         <div id="imgwarpper">
-                            <img src="images-cv/projet/module-connexion.PNG" alt="" id="imgContainer">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
+                                <img src="images-cv/projet/module-connexion.PNG" alt="" id="imgContainer">
+                            </a>
                         </div>
                         <div>
                             <h2 class="uppercase text-4xl font-semibold">
@@ -286,12 +290,16 @@
                             </p>
                         </div>
                         <div id="imgwarpper">
-                            <img src="images-cv/projet/site-martinique.png" alt="" id="imgContainer">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/voyage/martinique.html">
+                                <img src="images-cv/projet/site-martinique.png" alt="" id="imgContainer">
+                            </a>
                         </div>
                     </div>
 					<div id="projectWarpper" class="flex items-center justify-center gap-x-6">
                         <div id="imgwarpper">
-                            <img src="images-cv/projet/rsalles.jpg" alt="" id="imgContainer">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
+                                <img src="images-cv/projet/rsalles.jpg" alt="" id="imgContainer">
+                            </a>
                         </div>
                         <div>
                             <h2 class="uppercase text-4xl font-semibold">
