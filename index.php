@@ -73,7 +73,7 @@
 			<section class="mx-4 flex" id="present">
 			<div class="flex items-center justify-end absolute" id="dateAvailability">
 				<div id="iconLinks">
-					<ul class="flex flex-col justify-start -mt-6 mr-4">
+					<ul class="flex flex-col lg:justify-start lg:-mt-6 lg:mr-4">
 						<li>
 							<a href="https://github.com/jules-jean-louis1">
 								<i class="fa-brands fa-square-github fa-2xl"></i>
@@ -97,7 +97,7 @@
 					<span>d'une alternance</span>
 				</div>
 			</div>
-			<div class="flex items-end justify-between w-full">
+			<div class="flex flex-col lg:flex lg:items-end lg:justify-between w-full">
 					<div class="flex flex-col">
 						<div class="flex ml-2">
 								<div class="">
@@ -123,12 +123,12 @@
 								</div>
 						</div>
 						<div class="" id="home-page-title">
-							<h1 class="-mt-6 -mb-9">
+							<h1 class="text-8xl lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="-mt-9 -mb-9">
+							<h1 class="text-8xl lg:-mt-6 lg:-mb-9">
 								<span>
 									I 'am Jules
 								</span>
@@ -167,34 +167,34 @@
             </div>-->
 		</article>
         <article>
-            <section id="aboutME">
-                <div id="aboutContainer" class="flex justify-center items-center">
-                    <div id="aboutWarpper" class="flex w-6/12 gap-12">
-                        <div class="flex flex-col w-6/12">
-                            <div class="flex flex-col items-end" id="aboutMeTitle">
-                                <h2 class="uppercase text-4xl font-semibold flex flex-col text-end gap-y-3.5">
+            <section id="aboutME" class="h-[125vh] lg:h-3/4">
+                <div id="aboutContainer" class="lg:flex lg:justify-center lg:items-center">
+                    <div id="aboutWarpper" class="flex flex-col lg:flex lg:w-6/12 lg:gap-12">
+                        <div class="flex flex-col lg:w-6/12">
+                            <div class="flex flex-col items-center lg:items-end" id="aboutMeTitle">
+                                <h2 class="uppercase text-5xl font-semibold flex flex-col text-center font-black lg:text-end lg:text-[3.5rem] lg:leading-none  gap-y-3.5">
                                     <span class="">
                                         Bonjour, je m'appelle Jules
                                     </span>
                                 </h2>
-                                <h6>
+                                <h6 class="text-[1.2em] text-center uppercase lg:text-end lg:text-2xl ">
                                     <span>
                                         Jules JEAN-LOUIS
                                     </span>
                                 </h6>
                             </div>
-                            <div id="aboutText" class="flex justify-end items-end text-end uppercase mt-11">
-                                <p>
+                            <div id="aboutText" class="flex text-center lg:justify-end lg:items-end lg:text-end uppercase mt-11">
+                                <p class="text-[1.2em]">
                                 <span>
                                     Je suis un étudiant passionné de développement Web et mobile en recherche d'une alternance afin de me professionaliser. Avec mes connaissances en HTML, CSS, PHP, JavaScript, JQuery, Bootstrap et Tailwind, je suis prêt à intégrer une équipe et à développer mes compétences en utilisant les dernières technologies pour créer des solutions innovantes et performantes.
                                 </span>
                                 </p>
                             </div>
                         </div>
-                        <div id="aboutTechno" class="flex flex-col gap-y-8 w-6/12">
+                        <div id="aboutTechno" class="flex flex-col items-center gap-y-8 mt-8  lg:mt-0 lg:w-6/12">
                             <div class="flex items-center">
                                 <i class="fa-solid fa-code" id="iconCodeAbout"></i>
-                                <h2 class="ml-2 uppercase">
+                                <h2 class="text-[1.8em] font-semibold ml-2 uppercase">
                                     <span>
                                         Langages
                                     </span>
@@ -208,13 +208,13 @@
                             </div>
                             <div class="flex items-center mt-6">
                                 <i class="fa-solid fa-circle-nodes" id="iconCodeAbout"></i>
-                                <h2 class="ml-2 uppercase">
+                                <h2 class="text-[1.8em] font-semibold ml-2 uppercase">
                                     <span>
                                         Frameworks
                                     </span>
                                 </h2>
                             </div>
-                            <div id="iconColorAbout" class="flex gap-x-6">
+                            <div id="iconColorAbout" class="flex justify-center gap-x-6">
                                 <img src="images-cv/tailwind-css-seeklogo.com.svg" alt="" id="importSVGLogo">
                                 <img src="images-cv/bootstrap.svg" alt="" id="importSVGLogo">
                                 <img src="images-cv/jquery.svg" alt="" id="importSVGLogo">
@@ -226,14 +226,14 @@
             </section>
         </article>
         <article>
-		<section class="projet scroll_section" id="section_projets">
+		<section class="projet h-[180vh] lg:h-[150vh]" id="section_projets">
 			<div class="box-warpper-projet">
 				<div class="flex items-center mb-8" id="fontSectionTitle">
 					<i class="fa-solid fa-laptop-code"></i>
 					<h2 class="text-3xl uppercase ml-2">Projets Sélectionner</h2>
 				</div>
 				<div id="containerImages" class="flec flex-col justify-center">
-					<div id="projectWarpper" class="flex items-center justify-center gap-x-6 ">
+					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
 						<div>
 							<h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
@@ -251,14 +251,14 @@
 						</div>
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/livreor/index.php">
-                                <img src="images-cv/projet/livre-or.jpg" alt="" id="imgContainer">
+                                <img src="images-cv/projet/livre-or.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
 					</div>
-                    <div id="projectWarpper" class="flex items-center justify-center gap-x-6">
+                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
-                                <img src="images-cv/projet/module-connexion.PNG" alt="" id="imgContainer">
+                                <img src="images-cv/projet/module-connexion.PNG" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                         <div>
@@ -277,7 +277,7 @@
                             </p>
                         </div>
                     </div>
-                    <div id="projectWarpper" class="flex items-center justify-center gap-x-6">
+                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div>
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
@@ -295,14 +295,14 @@
                         </div>
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/voyage/martinique.html">
-                                <img src="images-cv/projet/site-martinique.png" alt="" id="imgContainer">
+                                <img src="images-cv/projet/site-martinique.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                     </div>
-					<div id="projectWarpper" class="flex items-center justify-center gap-x-6">
+					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
-                                <img src="images-cv/projet/rsalles.jpg" alt="" id="imgContainer">
+                                <img src="images-cv/projet/rsalles.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                         <div>
@@ -331,10 +331,12 @@
                     <div class="icon_wrapper">
                         <i class="fa-solid fa-user fa-xl" id="iconContact"></i>
                     </div>
-                    <h2>Contact</h2>
+                    <h2 class="text-[2.1em] font-semibold uppercase">
+                        Contact
+                    </h2>
                 </div>
                 <div id="containerContact" class="flex justify-center items-center mt-20 rounded-xl">
-                    <div id="containerWarpper" class="flex justify-between gap-28">
+                    <div id="containerWarpper" class="flex flex-col items-center gap-10 lg:flex-row lg:justify-between lg:gap-28">
                         <div id="iconMeContact">
                             <span class="svg_logo">
                                 <svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -385,7 +387,7 @@
 	</main>
 	<footer>
         <div class="w-full">
-            <div id="containerFooter" class="flex justify-around items-center py-9 px-4">
+            <div id="containerFooter" class="lg:flex lg:justify-around lg:items-center lg:py-9 lg:px-4 flex flex-col items-center space-y-5 ">
                 <div class="flex flex-col ">
                     <div class="flex items-center">
                         <i class="fa-solid fa-arrow-right" id="iconColorFooter"></i>

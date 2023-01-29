@@ -13,7 +13,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-/* 	outline: solid 1px red; */
+ 	outline: solid 1px red;
 }
 
 html {
@@ -216,7 +216,7 @@ span.svg_logo {
 
 #aboutME {
 	/* background-color: rgba(19,19,19,0.90); */
-	height: 75vh;
+	/*height: 75vh;*/
 	width: 100%;
 	background: #121316;
 	color: hsl(180,1%,78%);
@@ -228,26 +228,14 @@ span.svg_logo {
 #aboutContainer{
 	padding-top: 10%;
 }
-#aboutMeTitle h2{
-	font-size: 3.5rem;
-	font-weight: 900;
-	line-height: 3.2rem;
-}
 #aboutMeTitle h6{
-	font-size: 1.5em;
-	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
 	color: hsla(0, 0%, 100%, 0.4);
 }
 #aboutText p{
-	font-size: 1.2em;
 	font-family: 'Poppins', sans-serif;
 }
-#aboutTechno h2{
-	font-size: 2.5rem;
-	font-weight: 900;
-	line-height: 3.2rem;
-}
+
 #iconCodeAbout{
 	font-size: 2.5rem;
 	color: hsla(0, 0%, 100%, 0.4);
@@ -332,12 +320,9 @@ img#importSVGLogo {
 }
 
 #wapper_contact h2 {
-	font-size: 2.1vw;
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
-    font-weight: 800;
     color: hsl(180,1%,78%);
-	text-transform: uppercase;
 }
 #iconContact {
 	width: 2.5rem;
