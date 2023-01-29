@@ -14,7 +14,6 @@
 	padding: 0;
 	box-sizing: border-box;
 /* 	outline: solid 1px red; */
-	color: #CFCFD0;
 }
 
 html {
@@ -28,7 +27,6 @@ body{
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
-	color: #f5eee6;
 	/* background-image: url(images-test/pexels-pixabay-159862.jpg); */
 	background: url(images-test/dfc0d8656b96a0b3fb72a83713b23c45.jpg) no-repeat fixed; 
 	/* background: url(images-cv/bg---3.jpg) no-repeat fixed; */
@@ -41,14 +39,16 @@ header {
 	left: 0px;
 	right: 0px;
 	z-index: 11;
+	color: hsl(180,1%,78%);
 } 
 #navbar-container {
-	border-bottom: 1px solid #F5EEE6;
+	border-bottom: 1px solid #CFCFD0;
 }
 #scrollbar {
 	width: 0%;
 	height: 2px;
 	background-color: #F3DBC7;
+	background: linear-gradient(90deg, #dc08e3 0%, #3c017a 150%);
 	position: sticky;
 	left: 0;
 	max-width: 98.30%;
@@ -126,7 +126,7 @@ span.svg_logo {
 }
 .tut-animation-1 {
 	transition: background-size .6s ease-out;
-	background-image: linear-gradient(#e1b487, #e1b487);
+	background-image: linear-gradient(90deg, #dc08e3 0%, #3c017a 150%);
 	background-repeat: no-repeat;
 	background-position: 0% 100%;
 	background-size: 0 10%;
@@ -146,6 +146,7 @@ span.svg_logo {
 #############################################################*/
 #home-page {
 	background: linear-gradient(0deg,#121316,hsla(0,0%,7%,0),transparent);
+	color: hsl(180,1%,78%);
 }
 #present{
     height: 92vh;
@@ -192,6 +193,9 @@ span.svg_logo {
 	text-transform: uppercase;
 	font-family: 'Poppins', sans-serif;
 }
+#iconLinks {
+	color: hsla(0, 0%, 100%, 0.4);
+}
 /*#############################################################
 ###############################################################
 ################ A B O U T - S E C T I O N ######################
@@ -204,10 +208,11 @@ span.svg_logo {
 	height: 75vh;
 	width: 100%;
 	background: #121316;
+	color: hsl(180,1%,78%);
 }
 
 #iconColorAbout {
-	color: #fbfafb;
+	color: hsla(0, 0%, 100%, 0.4);
 }
 #aboutContainer{
 	padding-top: 10%;
@@ -221,7 +226,7 @@ span.svg_logo {
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
-	color: #ef0e3b;
+	color: hsla(0, 0%, 100%, 0.4);
 }
 #aboutText p{
 	font-size: 1.2em;
@@ -234,11 +239,16 @@ span.svg_logo {
 }
 #iconCodeAbout{
 	font-size: 2.5rem;
-	color: #fbfafb;
+	color: hsla(0, 0%, 100%, 0.4);
 }
 #iconColorAbout{
 	font-size: 2.5rem;
-	color: #fbfafb;
+	color: hsla(0, 0%, 100%, 0.4);
+}
+img#importSVGLogo {
+    width: 16%;
+	color: hsla(0, 0%, 100%, 0.4);
+	
 }
 /*#############################################################
 ###############################################################
@@ -249,10 +259,11 @@ span.svg_logo {
 .projet {
 	background-color: #121316;
 	height: 150vh;
+	color: hsl(180,1%,78%);
 }
 .fa-laptop-code{
 	font-size: 2.5rem;
-	color: #fbfafb;
+	color: hsla(0, 0%, 100%, 0.4);
 }
 #imgwarpper img {
 	object-fit: cover;
@@ -267,13 +278,15 @@ span.svg_logo {
 }
 #fontSectionTitle {
 	padding-bottom: 5%;
+	font-size: 4rem;
+	font-weight: 900;
 }
 
 .box-warpper-projet{
 	padding: 10%;
 }
 #subTitleDescro span {
-	color: #707173;
+	color: hsla(0, 0%, 100%, 0.4);
 }
 /*#############################################################
 ###############################################################
@@ -285,6 +298,7 @@ span.svg_logo {
 .contact{
 	background-color: #121316;
 	height: 40vh;
+	color: hsl(180,1%,78%);
 }
 #wapper_contact {
 	margin-left: 10%;
@@ -297,13 +311,16 @@ span.svg_logo {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    color: #F5EEE6;
+    color: hsl(180,1%,78%);
 	text-transform: uppercase;
 }
 #iconContact {
 	width: 2.5rem;
+	color: hsla(0, 0%, 100%, 0.4);
 }
-
+i#contactLink {
+	color: hsla(0, 0%, 100%, 0.4);
+}
 
 /*#############################################################
 ###############################################################
@@ -316,15 +333,16 @@ footer{
 	box-shadow: #F5EEE6 1px 1px 1px 1px;
 	max-height: 300px;
 	font-family: 'Montserrat', sans-serif;
+	color: hsl(180,1%,78%);
 }
 #containerFooter #backToTheTopCont{
-	color: #131313;
+	color: hsl(180,1%,78%);
 }
 #colorFontFooter{
-	color: #131313;
+	color: hsl(180,1%,78%);
 }
 #iconColorFooter{
-	color: #131313;
+	color: hsl(180,1%,78%);
 }
 #h2footerContact {
 	font-family: 'Poppins', sans-serif;

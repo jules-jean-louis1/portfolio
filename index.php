@@ -187,7 +187,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div id="aboutTechno">
+                        <div id="aboutTechno" class="flex flex-col gap-y-8 w-6/12">
                             <div class="flex items-center">
                                 <i class="fa-solid fa-code" id="iconCodeAbout"></i>
                                 <h2 class="ml-2 uppercase">
@@ -196,11 +196,25 @@
                                     </span>
                                 </h2>
                             </div>
-                            <div id="iconColorAbout" class="mt-4">
-                                <i class="fa-brands fa-html5 fa-2xl"></i>
-                                <i class="fa-brands fa-css3-alt fa-2xl"></i>
-                                <i class="fa-brands fa-js fa-2xl"></i>
-                                <i class="fa-brands fa-php fa-2xl"></i>
+                            <div id="iconColorAbout" class="flex gap-x-6 mt-5">
+                                <i class="fa-brands fa-html5 fa-xl"></i>
+                                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                                <i class="fa-brands fa-js fa-xl"></i>
+                                <i class="fa-brands fa-php fa-xl"></i>
+                            </div>
+                            <div class="flex items-center mt-6">
+                                <i class="fa-solid fa-circle-nodes" id="iconCodeAbout"></i>
+                                <h2 class="ml-2 uppercase">
+                                    <span>
+                                        Frameworks
+                                    </span>
+                                </h2>
+                            </div>
+                            <div id="iconColorAbout" class="flex gap-x-6">
+                                <img src="images-cv/tailwind-css-seeklogo.com.svg" alt="" id="importSVGLogo">
+                                <img src="images-cv/bootstrap.svg" alt="" id="importSVGLogo">
+                                <img src="images-cv/jquery.svg" alt="" id="importSVGLogo">
+                                
                             </div>
                         </div>
                     </div>
