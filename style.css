@@ -28,7 +28,7 @@ body{
 	margin: 0;
 	padding: 0;
 	/* background-image: url(images-test/pexels-pixabay-159862.jpg); */
-	background: url(images-test/dfc0d8656b96a0b3fb72a83713b23c45.jpg) no-repeat fixed; 
+	background: url(images-test/dfc0d8656b96a0b3fb72a83713b23c45.jpg) no-repeat fixed;
 	/* background: url(images-cv/bg---3.jpg) no-repeat fixed; */
 	/* background: url(images-test/background-1.jpg) no-repeat fixed; */
 }
@@ -199,12 +199,14 @@ span.svg_logo {
 #iconLinks {
 	color: hsla(0, 0%, 100%, 0.4);
 }
-.iframeBackground {
+
+iframe {
 	position: absolute;
-	width: 100%;
 	top: 0;
+	left: 0;
 	height: 100%;
-	opacity: 0.5;
+	width: 100%;
+	z-index: -1;
 }
 
 /*#############################################################
