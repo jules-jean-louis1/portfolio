@@ -148,7 +148,7 @@
 								<div class="">
 									<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 										<g id="arrow-wrap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#FFFFFF" stroke-width="2">
+											<g id="arrow" transform="translate(-904.000000, -343.000000)" stroke="#d0d0d0" stroke-width="2">
 												<path d="M912.545285,345 L946.743,379.198 L946.74357,345.246688 L956,345.246688 L956,395 L906.246688,395 L906.246688,385.74357 L940.198,385.743 L906,351.545285 L912.545285,345 Z" id="wrap-arrow1a"></path>
 											</g>
 										</g>
@@ -168,12 +168,12 @@
 								</div>
 						</div>
 						<div class="mb-10 lg:mb-0" id="home-page-title">
-							<h1 class="text-6xl font-semibold lg:text-8xl lg:-mt-6 lg:-mb-9">
+							<h1 class="text-6xl font-semibold uppercase lg:text-8xl lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="text-6xl font-semibold lg:text-8xl lg:-mt-6 lg:-mb-9">
+							<h1 class="text-6xl font-semibold uppercase lg:text-8xl lg:-mt-6 lg:-mb-9">
 								<span>
 									I 'am Jules
 								</span>
@@ -198,10 +198,12 @@
 							</span>
 						</p>
 						<div class="btn mt-1">
-							<button class="border-2 rounded w-full py-4 uppercase "
-								id="btnContactDefilAuto"
-							>Contacter-Moi
-							</button>
+                            <a href="#section_contact">
+                                <button class="border-2 rounded w-full py-4 uppercase "
+                                    id="btnContactDefilAuto"
+                                >Contacter-Moi
+                                </button>
+                            </a>
 						</div>
 					</div>
 				</div>
@@ -411,9 +413,9 @@
                             <div id="contactMail" class="flex items-center">
                                 <i class="fa-solid fa-at fa-xl"></i>
                                 <p class="ml-4">
-                                    <span>
-                                        jules.jean-louis@laplateforme.io
-                                    </span>
+                                  <span>
+                                    <a href="mailto:jules.jean-louis@laplateforme.io">jules.jean-louis@laplateforme.io</a>
+                                  </span>
                                 </p>
                             </div>
                             <div id="contactCV" class="flex items-center">

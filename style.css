@@ -77,7 +77,7 @@ header .active_nav {
     color: #fff;
 }
 .st0{
-	fill:#f5eee6;
+	fill:#d0d0d0;
 }
 svg#logo-nav {
     width: 50px;
@@ -197,6 +197,11 @@ span.svg_logo {
 	top: 0;
 	height: 100%;
 	opacity: 0.5;
+}
+#btnContactDefilAuto:hover {
+	background: hsla(0, 0%, 100%, 0.4);
+	color: #121316;
+	transition: all 0.5s;
 }
 
 /*#############################################################
