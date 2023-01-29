@@ -462,7 +462,7 @@
                             </a>
                         </li>
                         <li class="mx-2">
-                            <a href="#" id="colorFontFooter">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/CV%20DEV%20WEB%20Jules%20Jean-Louis%20V2.pdf" id="colorFontFooter">
                                 Telecharger CV
                             </a>
                         </li>
