@@ -229,9 +229,9 @@
 					<h2 class="text-3xl uppercase ml-2">Projets Sélectionner</h2>
 				</div>
 				<div id="containerImages" class="flec flex-col justify-center">
-					<div id="projectWarpper" class="flex items-center justify-center gap-x-6">
+					<div id="projectWarpper" class="flex items-center justify-center gap-x-6 ">
 						<div>
-							<h2 class="uppercase text-4xl font-semibold">
+							<h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
 									Livre d'OR
 								</span>

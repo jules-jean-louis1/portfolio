@@ -135,7 +135,10 @@ span.svg_logo {
   .tut-animation-1--permanent {
 	background-size: 100% 10%;
   }
-
+#iconLinks a:hover {
+	color: #dc08e3;
+	transition: all 0.5s ease;
+}
 
 
 /*#############################################################
@@ -241,6 +244,10 @@ span.svg_logo {
 	font-size: 2.5rem;
 	color: hsla(0, 0%, 100%, 0.4);
 }
+#iconColorAbout:hover {
+	color: #dc08e3;
+	transition: all 0.5s ease;
+}
 #iconColorAbout{
 	font-size: 2.5rem;
 	color: hsla(0, 0%, 100%, 0.4);
@@ -296,6 +303,8 @@ img#importSVGLogo {
 	opacity: 1.5;
 	transition: all 0.5s ease;
 }
+
+
 /*#############################################################
 ###############################################################
 ################ Contact - S E C T I O N ######################

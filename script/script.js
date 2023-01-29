@@ -55,3 +55,4 @@ spinningProject.addEventListener('mouseout', function() {
     let image = document.getElementById("image");
     spinningProject.removeChild(image);
 }); */
+
