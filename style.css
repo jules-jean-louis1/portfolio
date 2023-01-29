@@ -336,7 +336,7 @@ i#contactLink {
 ###############################################################
 #############################################################*/
 footer{
-	background-color: #121316;
+	background: url("images-cv/Arrière-plan-copie.png");
 	box-shadow: #F5EEE6 1px 1px 1px 1px;
 	max-height: 300px;
 	font-family: 'Montserrat', sans-serif;
