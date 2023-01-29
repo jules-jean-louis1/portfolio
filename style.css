@@ -13,7 +13,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
- 	outline: solid 1px red;
 }
 
 html {
@@ -191,17 +190,19 @@ span.svg_logo {
 #iconLinks {
 	color: hsla(0, 0%, 100%, 0.4);
 }
-.iframeBackground {
-	position: absolute;
-	width: 100%;
-	top: 0;
-	height: 100%;
-	opacity: 0.5;
-}
+
 #btnContactDefilAuto:hover {
 	background: hsla(0, 0%, 100%, 0.4);
 	color: #121316;
 	transition: all 0.5s;
+}
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
 }
 
 /*#############################################################
@@ -226,7 +227,6 @@ span.svg_logo {
 	padding-top: 10%;
 }
 #aboutMeTitle h6{
-	font-family: 'Abril Fatface', cursive;
 	color: hsla(0, 0%, 100%, 0.4);
 }
 #aboutText p{

@@ -142,7 +142,7 @@
 					<span>d'une alternance</span>
 				</div>
 			</div>
-			<div class="flex flex-col justify-end lg:items-end lg:justify-between w-full">
+			<div class="flex flex-col justify-end lg:flex-row lg:items-end lg:justify-between w-full">
 					<div class="flex flex-col">
 						<div class="flex ml-2">
 								<div class="">
@@ -167,13 +167,13 @@
 									</h1>
 								</div>
 						</div>
-						<div class="mb-10 lg:mb-0" id="home-page-title">
-							<h1 class="text-6xl font-semibold uppercase lg:text-8xl lg:-mt-6 lg:-mb-9">
+						<div class="mb-10 lg:space-y-12" id="home-page-title">
+							<h1 class="text-6xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="text-6xl font-semibold uppercase lg:text-8xl lg:-mt-6 lg:-mb-9">
+							<h1 class="text-6xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
 								<span>
 									I 'am Jules
 								</span>
@@ -209,14 +209,15 @@
 				</div>
 
 			</section>
-            <!--<div class="iframeBackground">
-                <iframe src='https://my.spline.design/componentdonutscopy-1b4107d893bce2633e52ce98b6d5cfd2/' frameborder='0' width='100%' height='100%'></iframe>
-            </div>-->
+            <div class="iframeBackground">
+                <iframe src='https://my.spline.design/clonerwavescopy-36e0ef6f39d654d64d91f12b6afdac7e/' frameborder='0' width='100%' height='100%'></iframe>
+<!--                <iframe src='https://my.spline.design/componentdonutscopy-1b4107d893bce2633e52ce98b6d5cfd2/' frameborder='0' width='100%' height='100%'></iframe>-->
+            </div>
 		</article>
         <article>
             <section id="aboutME" class="h-[125vh] lg:h-3/4">
                 <div id="aboutContainer" class="lg:flex lg:justify-center lg:items-center">
-                    <div id="aboutWarpper" class="flex flex-col lg:flex lg:w-6/12 lg:gap-12">
+                    <div id="aboutWarpper" class="flex flex-col lg:flex lg:flex-row lg:w-6/12 lg:gap-12">
                         <div class="flex flex-col lg:w-6/12">
                             <div class="flex flex-col items-center lg:items-end" id="aboutMeTitle">
                                 <h2 class="uppercase text-5xl font-semibold flex flex-col text-center font-black lg:text-end lg:text-[3.5rem] lg:leading-none  gap-y-3.5">
