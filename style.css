@@ -14,6 +14,7 @@
 	padding: 0;
 	box-sizing: border-box;
 /* 	outline: solid 1px red; */
+	color: #CFCFD0;
 }
 
 html {
@@ -143,11 +144,13 @@ span.svg_logo {
 ###############################################################
 ###############################################################
 #############################################################*/
-
+#home-page {
+	background: linear-gradient(0deg,#121316,hsla(0,0%,7%,0),transparent);
+}
 #present{
     height: 92vh;
 /* 	background-color: #F8B21C; */
-	background-color: rgba(19,19,19,.05);
+/* 	background-color: rgba(19,19,19,.05); */
 }
 #home-page-title {
 	font-weight: 900;
@@ -200,7 +203,7 @@ span.svg_logo {
 	/* background-color: rgba(19,19,19,0.90); */
 	height: 75vh;
 	width: 100%;
-	background: url(images-test/Sans\ titre-1.png) no-repeat;
+	background: #121316;
 }
 
 #iconColorAbout {
@@ -244,7 +247,7 @@ span.svg_logo {
 ###############################################################
 #############################################################*/
 .projet {
-	background-color: rgba(19,19,19,0.90);
+	background-color: #121316;
 	height: 150vh;
 }
 .fa-laptop-code{
@@ -269,7 +272,9 @@ span.svg_logo {
 .box-warpper-projet{
 	padding: 10%;
 }
-
+#subTitleDescro span {
+	color: #707173;
+}
 /*#############################################################
 ###############################################################
 ################ Contact - S E C T I O N ######################
@@ -278,7 +283,7 @@ span.svg_logo {
 #############################################################*/
 
 .contact{
-	background-color: rgba(19,19,19,0.90);
+	background-color: #121316;
 	height: 40vh;
 }
 #wapper_contact {
@@ -307,7 +312,7 @@ span.svg_logo {
 ###############################################################
 #############################################################*/
 footer{
-	background-color: rgba(19,19,19,0.90);
+	background-color: #121316;
 	box-shadow: #F5EEE6 1px 1px 1px 1px;
 	max-height: 300px;
 	font-family: 'Montserrat', sans-serif;

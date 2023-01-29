@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jules JEAN-LOUIS - Portefolio</title>
-	<link rel="icon" href="images-cv/JJL-logo19-black.png" type="image/icon type">
+	<link rel="icon" href="images-cv/circle-rev-1 copie-2.png" type="image/icon type">
 	<link rel="stylesheet" href="style.css" />
 	<script defer src="script/script.js"></script>
 	<script src="https://cdn.tailwindcss.com"></script>
@@ -153,7 +153,7 @@
 							</span>
 						</p>
 						<div class="btn mt-1">
-							<button class="border-2 rounded w-full py-4 uppercase"
+							<button class="border-2 rounded w-full py-4 uppercase "
 								id="btnContactDefilAuto"
 							>Contacter-Moi
 							</button>
@@ -222,7 +222,7 @@
 									Livre d'OR
 								</span>
 							</h2>
-							<p class="flex flex-col ml-8">
+							<p class="flex flex-col ml-8" id="subTitleDescro">
 								<span>
 									Projet de livre d'or en
 								</span>
@@ -248,10 +248,7 @@
                                     connexion
                                 </span>
                             </h2>
-                            <p class="flex flex-col ml-8">
-								<span>
-
-								</span>
+                            <p class="flex flex-col ml-8" id="subTitleDescro">
                                 <span>
 									PHP, HTML, CSS, JS, SQL
 								</span>
@@ -268,7 +265,7 @@
                                     Voyage
                                 </span>
                             </h2>
-                            <p class="flex flex-col ml-8">
+                            <p class="flex flex-col ml-8" id="subTitleDescro">
                                 <span>
                                     HTML, CSS
 								</span>
@@ -291,10 +288,7 @@
                                     salles
                                 </span>
                             </h2>
-                            <p class="flex flex-col ml-8">
-								<span>
-
-								</span>
+                            <p class="flex flex-col ml-8"id="subTitleDescro">
                                 <span>
 									PHP, HTML, CSS, JS, SQL
 								</span>
