@@ -71,9 +71,54 @@
     <main class="w-full">
 		<article id="home-page">
 			<section class="mx-4 flex" id="present">
-			<div class="flex items-center justify-end absolute" id="dateAvailability">
+			<div class="flex items-center justify-end absolute right-10
+			                    .top-13-lg {
+                                @apply top-13;
+                                }
+                                .right-20-lg {
+                                @apply right-20;
+                                }
+                                .flex-lg {
+                                @apply flex;
+                                }
+                                .items-center-lg {
+                                @apply items-center;
+                                }
+                                .cursor-pointer-lg {
+                                @apply cursor-pointer;
+                                }
+                                .z-4-lg {
+                                @apply z-4;
+                                }
+                                .h-14-lg {
+                                @apply h-14;
+                                }
+
+                                @media (min-width: 1024px) {
+                                .top-13-lg {
+                                top: 13%;
+                                }
+                                .right-20-lg {
+                                right: 20vw;
+                                }
+                                .flex-lg {
+                                display: flex;
+                                }
+                                .items-center-lg {
+                                align-items: center;
+                                }
+                                .cursor-pointer-lg {
+                                cursor: pointer;
+                                }
+                                .z-4-lg {
+                                z-index: 4;
+                                }
+                                .h-14-lg {
+                                height: 14%;
+                                }
+                                }">
 				<div id="iconLinks">
-					<ul class="flex flex-col lg:justify-start lg:-mt-6 lg:mr-4">
+					<ul class="flex flex-col mt-5 mr-2 lg:justify-start lg:-mt-6 lg:mr-4">
 						<li>
 							<a href="https://github.com/jules-jean-louis1">
 								<i class="fa-brands fa-square-github fa-2xl"></i>
@@ -86,18 +131,18 @@
 						</li>
 					</ul>
 				</div>
-				<div id="number" class="flex">
+				<div id="number" class="flex text-[4.3em] lg:text-[9em]">
 					<h3>
 						<span>27</span>
 					</h3>
 				</div>
-				<div id="label" class="flex flex-col ml-4 mt-7">
+				<div id="label" class="flex flex-col text-[0.5em] mt-7 ml-2 lg:ml-4  lg:text-[1.5em]">
 					<span id="dateMoisAlt">Février</span>
 					<span>Recherche</span>
 					<span>d'une alternance</span>
 				</div>
 			</div>
-			<div class="flex flex-col lg:flex lg:items-end lg:justify-between w-full">
+			<div class="flex flex-col justify-end lg:items-end lg:justify-between w-full">
 					<div class="flex flex-col">
 						<div class="flex ml-2">
 								<div class="">
@@ -109,7 +154,7 @@
 										</g>
 									</svg>
 								</div>
-								<div class=" mx-4 flex flex-col justify-between">
+								<div class="lg:mx-4 flex flex-col justify-between mb-8 ml-2">
 									<h1>
 										<span>
 											Développeur Web
@@ -122,20 +167,20 @@
 									</h1>
 								</div>
 						</div>
-						<div class="" id="home-page-title">
-							<h1 class="text-8xl lg:-mt-6 lg:-mb-9">
+						<div class="mb-10 lg:mb-0" id="home-page-title">
+							<h1 class="text-6xl font-semibold lg:text-8xl lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="text-8xl lg:-mt-6 lg:-mb-9">
+							<h1 class="text-6xl font-semibold lg:text-8xl lg:-mt-6 lg:-mb-9">
 								<span>
 									I 'am Jules
 								</span>
 						</div>
 					</div>
 					<div class="flex flex-col py-4 ">
-						<p class="flex flex-col items-end" id="infoPresentText">
+						<p class="flex flex-col lg:items-end uppercase text-[0.9em] lg:text-[1.2em]" id="infoPresentText">
 							<span class="my-0.3">
 								Je m'appelle Jules Jean-louis
 							</span>
@@ -420,7 +465,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="backToTheTopCont" class="">
+                <div id="backToTheTopCont" class="mb-4 lg:mb-0">
                     <div>
                         <a href="#top" id="colorFontFooter">
                             <span>Back to the top</span>
