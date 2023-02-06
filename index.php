@@ -119,12 +119,12 @@
                                 }">
 				<div id="iconLinks">
 					<ul class="flex flex-col mt-5 mr-2 lg:justify-start lg:-mt-6 lg:mr-4">
-						<li>
+						<li class="hover:text-[#A770FF]">
 							<a href="https://github.com/jules-jean-louis1">
 								<i class="fa-brands fa-square-github fa-2xl"></i>
 							</a>
 						</li>
-						<li class="my-2">
+						<li class="my-2 hover:text-[#A770FF]">
 							<a href="https://www.linkedin.com/in/jules-jean-louis-351a32259/">
 								<i class="fa-brands fa-linkedin fa-2xl"></i>
 							</a>
