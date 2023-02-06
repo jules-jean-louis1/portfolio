@@ -14,7 +14,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 html {
 	scroll-behavior: smooth;
 }
@@ -192,9 +191,9 @@ span.svg_logo {
 }
 
 #btnContactDefilAuto:hover {
-	background: hsla(0, 0%, 100%, 0.4);
-	color: #121316;
-	transition: all 0.5s;
+	background: hsla(0, 0%, 0%, 0.4);
+	color: #A770FF;
+	transition: all 0.3s;
 }
 iframe {
 	position: absolute;
@@ -349,6 +348,10 @@ footer{
 #colorFontFooter{
 	color: hsl(180,1%,78%);
 }
+#colorFontFooter:hover{
+	color: #646467;
+	transition: all 0.2s ease;
+}
 #iconColorFooter{
 	color: hsl(180,1%,78%);
 }
@@ -359,11 +362,58 @@ footer{
 
 /*#############################################################
 ###############################################################
-############ Gradiant Background ######################
+############ 	Animation sur scroll	 ######################
 ###############################################################
 ###############################################################
 #############################################################*/
 
+/* Animation sur scroll */
+.cacheranime {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	transition: all 1s;
+}
+.hiddenanime2 {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateY(100%);
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	transition: all 1s;
+}
+.imageGauche {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	transition: all 1s;
+}
+.imageDroite {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(100%);
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	transition: all 1s;
+}
+.show {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+@media (prefers-reduced-motion) {
+	.hidden {
+		transition: none;
+	}
+}
 
 
 /*#############################################################

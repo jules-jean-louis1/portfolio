@@ -41,18 +41,23 @@ button.addEventListener("mouseout", stopMarquee);
 //Afficher une image au survol du projet
 
 
-/* spinningProject.addEventListener('mouseover', function() {
-    let image = document.createElement("div");
-    image.id = "image";
-    let img = document.createElement("img");
-    img.src = "images-cv/projet/rsalles.jpg";
-    img.alt = "";
-    image.appendChild(img);
-    spinningProject.appendChild(image);
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        } else {
+            entry.target.classList.remove("show");
+        }
+    });
 });
 
-spinningProject.addEventListener('mouseout', function() {
-    let image = document.getElementById("image");
-    spinningProject.removeChild(image);
-}); */
+const hiddenElements = document.querySelectorAll(".cacheranime");
+const hiddenElements2 = document.querySelectorAll(".hiddenanime2");
+const imageLeft = document.querySelectorAll(".imageGauche");
+const imageRight = document.querySelectorAll(".imageDroite");
+hiddenElements.forEach((el) => observer.observe(el));
+hiddenElements2.forEach((el) => observer.observe(el));
+imageLeft.forEach((el) => observer.observe(el));
+imageRight.forEach((el) => observer.observe(el));
+
 

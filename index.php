@@ -68,10 +68,10 @@
 		<div class="scroller"></div>
 		<div id="scrollbar" class ="mx-4 max-w-[91%] lg:max-w-[98.30%]"></div>
 	</header>
-    <main class="w-full">
+    <main class="w-full overflow-clip">
 		<article id="home-page">
 			<section class="mx-4 flex" id="present">
-			<div class="flex items-center justify-end absolute right-10
+			<div class="hiddenanime2 flex items-center justify-end absolute right-10
 			                    .top-13-lg {
                                 @apply top-13;
                                 }
@@ -143,7 +143,7 @@
 				</div>
 			</div>
 			<div class="flex flex-col justify-end lg:flex-row lg:items-end lg:justify-between w-full">
-					<div class="flex flex-col">
+					<div class="imageGauche flex flex-col">
 						<div class="flex ml-2">
 								<div class="">
 									<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -167,7 +167,7 @@
 									</h1>
 								</div>
 						</div>
-						<div class="mb-10 lg:space-y-12" id="home-page-title">
+						<div class="mb-7 lg:space-y-12" id="home-page-title">
 							<h1 class="text-5xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
@@ -179,8 +179,8 @@
 								</span>
 						</div>
 					</div>
-					<div class="flex flex-col py-4 ">
-						<p class="flex flex-col lg:items-end uppercase text-[0.9em] lg:text-[1.2em]" id="infoPresentText">
+					<div class="flex flex-col py-4">
+						<p class="imageDroite flex flex-col lg:items-end uppercase text-[0.8em] lg:text-[1.2em]" id="infoPresentText">
 							<span class="my-0.3">
 								Je m'appelle Jules Jean-louis
 							</span>
@@ -197,9 +197,9 @@
 							<b id="boldFontHome">projets</b> que j'ai réalisés cette année.
 							</span>
 						</p>
-						<div class="btn mt-1">
+						<div class="hiddenanime2 btn mt-1 pb-9">
                             <a href="#section_contact">
-                                <button class="mb-4 border-2 rounded w-full py-4 uppercase "
+                                <button class="mb-4 border-2 rounded w-full py-4 uppercase"
                                     id="btnContactDefilAuto"
                                 >Contactez-Moi
                                 </button>
@@ -218,7 +218,7 @@
             <section id="aboutME" class="flex justify-center items-center h-[150vh] lg:h-3/4">
                 <div id="aboutContainer" class="lg:flex lg:justify-center lg:items-center">
                     <div id="aboutWarpper" class="flex flex-col lg:flex lg:flex-row lg:w-6/12 lg:gap-12">
-                        <div class="flex flex-col lg:w-6/12">
+                        <div class="cacheranime flex flex-col lg:w-6/12">
                             <div class="flex flex-col items-center lg:items-end" id="aboutMeTitle">
                                 <h2 class="uppercase text-5xl font-semibold flex flex-col text-center font-black lg:text-end lg:text-[3.5rem] lg:leading-none  gap-y-3.5">
                                     <span class="">
@@ -239,7 +239,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div id="aboutTechno" class="flex flex-col items-center gap-y-8 mt-8  lg:mt-0 lg:w-6/12">
+                        <div id="aboutTechno" class="hiddenanime2 flex flex-col items-center gap-y-8 mt-8  lg:mt-0 lg:w-6/12">
                             <div class="flex items-center">
                                 <i class="fa-solid fa-code" id="iconCodeAbout"></i>
                                 <h2 class="text-[1.8em] font-semibold ml-2 uppercase">
@@ -281,7 +281,7 @@
 				</div>
 				<div id="containerImages" class="flec flex-col justify-center">
                     <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
-                        <div>
+                        <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
 									Autocomplete
@@ -296,14 +296,14 @@
 								</span>
                             </p>
                         </div>
-                        <div id="imgwarpper">
+                        <div id="imgwarpper" class="imageDroite">
                             <a href="https://github.com/jules-jean-louis1/Autocompletion">
                                 <img src="images-cv/projet/autocomplete.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                     </div>
 					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
-						<div>
+						<div class="imageGauche">
 							<h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
 									Livre d'OR
@@ -318,19 +318,19 @@
 								</span>
 							</p>
 						</div>
-                        <div id="imgwarpper">
+                        <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/livreor/index.php">
                                 <img src="images-cv/projet/livre-or.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
 					</div>
                     <div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
-                        <div id="imgwarpper">
+                        <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
                                 <img src="images-cv/projet/module-connexion.PNG" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
-                        <div>
+                        <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
 									Module de
@@ -347,7 +347,7 @@
                         </div>
                     </div>
                     <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
-                        <div>
+                        <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
 									Site de
@@ -362,19 +362,19 @@
 								</span>
                             </p>
                         </div>
-                        <div id="imgwarpper">
+                        <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/voyage/martinique.html">
                                 <img src="images-cv/projet/site-martinique.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                     </div>
 					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
-                        <div id="imgwarpper">
+                        <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
                                 <img src="images-cv/projet/rsalles.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
-                        <div>
+                        <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
 									Réservation de
@@ -408,7 +408,7 @@
                     <div id="containerWarpper" class="flex flex-col items-center gap-10 lg:flex-row lg:justify-between lg:gap-28">
                         <div id="iconMeContact">
                             <div id="contactLink" class="flex flex-col gap-y-5">
-                            <div class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 w-[85vw]">
+                            <div class="imageDroite flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 w-[85vw]">
                                 <div class="bg-[#A770FF] p-4 rounded">
                                 <span class="svg_logo">
                                 <svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -443,7 +443,7 @@
                                 </span>
                                 </h2>
                             </div>
-                            <div id="contactMail" class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
+                            <div id="contactMail" class="imageGauche flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
                                 <div class="bg-[#27282B] p-4 rounded">
                                     <i class="fa-solid fa-at fa-xl hover:text-[#A770FF]"></i>
                                 </div>
@@ -456,7 +456,7 @@
                                   </span>
                                 </p>
                             </div>
-                            <div id="contactCV" class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
+                            <div id="contactCV" class="imageGauche flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
                                 <div class="bg-[#27282B] p-4 rounded">
                                     <a href="https://jules-jean-louis.students-laplateforme.io/CV%20DEV%20WEB%20Jules%20Jean-Louis%20V2.pdf">
                                     <i class="fa-solid fa-file-arrow-down fa-xl hover:text-[#A770FF]"></i>
@@ -503,7 +503,7 @@
                             </a>
                         </li>
                         <li class="mx-2">
-                            <a href="https://www.linkedin.com/in/alexandre-bertrand-1b1b1b1b1/" target="_blank" id="colorFontFooter">
+                            <a href="https://www.linkedin.com/in/jules-jean-louis-351a32259/" target="_blank" id="colorFontFooter">
                                 Linkedin
                             </a>
                         </li>
