@@ -273,7 +273,7 @@
             </section>
         </article>
         <article>
-		<section class="projet h-[250vh] py-[10%] lg:h-[150vh]" id="section_projets">
+		<section class="projet h-[250vh] py-[10%] lg:h-[210vh]" id="section_projets">
 			<div class="box-warpper-projet">
 				<div class="flex items-center mb-8" id="fontSectionTitle">
 					<i class="fa-solid fa-laptop-code"></i>
@@ -302,7 +302,7 @@
                             </a>
                         </div>
                     </div>
-					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row-reverse lg:justify-center lg:gap-x-6 ">
 						<div class="imageGauche">
 							<h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
@@ -324,7 +324,7 @@
                             </a>
                         </div>
 					</div>
-                    <div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+                    <div id="projectWarpper" class="flex flex-col-reverse lg:flex items-center lg:flex-row-reverse lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
                                 <img src="images-cv/projet/module-connexion.PNG" alt="" class="lg:h-[20vh] lg:w-[35vw]">
@@ -346,7 +346,7 @@
                             </p>
                         </div>
                     </div>
-                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row-reverse lg:justify-center lg:gap-x-6 ">
                         <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
@@ -368,7 +368,7 @@
                             </a>
                         </div>
                     </div>
-					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-row-reverse items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper" class="imageDroite">
                             <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
                                 <img src="images-cv/projet/rsalles.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
@@ -395,7 +395,7 @@
 		</section>
         </article>
         <article>
-            <section class="contact h-[93vh]" id="section_contact">
+            <section class="contact h-[93vh] lg:h-[50vh]" id="section_contact">
                 <div id="wapper_contact" class="flex items-center">
                     <div class="icon_wrapper">
                         <i class="fa-solid fa-user fa-xl" id="iconContact"></i>
@@ -407,8 +407,8 @@
                 <div id="containerContact" class="flex justify-center items-center my-[15%] mb-[5%] lg:mt-20 rounded mx-5">
                     <div id="containerWarpper" class="flex flex-col items-center gap-10 lg:flex-row lg:justify-between lg:gap-28">
                         <div id="iconMeContact">
-                            <div id="contactLink" class="flex flex-col gap-y-5">
-                            <div class="imageDroite flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 w-[85vw]">
+                            <div id="contactLink" class="flex flex-col gap-y-5 lg:flex lg:flex-row lg:space-x-5 lg:w-[75vw]">
+                            <div class="imageDroite flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 w-[85vw] lg:m">
                                 <div class="bg-[#A770FF] p-4 rounded">
                                 <span class="svg_logo">
                                 <svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -480,7 +480,7 @@
         </article>
 	</main>
 	<footer>
-        <div class="w-full">
+        <div class="w-full py-3">
             <div id="containerFooter" class="lg:flex lg:justify-around lg:items-center lg:py-9 lg:px-4 flex flex-col items-center space-y-5 ">
                 <div class="flex flex-col ">
                     <div class="flex items-center">
