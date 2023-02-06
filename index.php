@@ -66,7 +66,7 @@
             </nav>
         </div>
 		<div class="scroller"></div>
-		<div id="scrollbar" class ="mx-4"></div>
+		<div id="scrollbar" class ="mx-4 max-w-[91%] lg:max-w-[98.30%]"></div>
 	</header>
     <main class="w-full">
 		<article id="home-page">
@@ -168,12 +168,12 @@
 								</div>
 						</div>
 						<div class="mb-10 lg:space-y-12" id="home-page-title">
-							<h1 class="text-6xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
+							<h1 class="text-5xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
 								<span id="">
 									Hello,
 								</span>
 							</h1>
-							<h1 class="text-6xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
+							<h1 class="text-5xl font-semibold uppercase lg:text-[9em]  lg:-mt-6 lg:-mb-9">
 								<span>
 									I 'am Jules
 								</span>
@@ -199,9 +199,9 @@
 						</p>
 						<div class="btn mt-1">
                             <a href="#section_contact">
-                                <button class="border-2 rounded w-full py-4 uppercase "
+                                <button class="mb-4 border-2 rounded w-full py-4 uppercase "
                                     id="btnContactDefilAuto"
-                                >Contacter-Moi
+                                >Contactez-Moi
                                 </button>
                             </a>
 						</div>
@@ -215,7 +215,7 @@
             </div>
 		</article>
         <article>
-            <section id="aboutME" class="h-[125vh] lg:h-3/4">
+            <section id="aboutME" class="flex justify-center items-center h-[150vh] lg:h-3/4">
                 <div id="aboutContainer" class="lg:flex lg:justify-center lg:items-center">
                     <div id="aboutWarpper" class="flex flex-col lg:flex lg:flex-row lg:w-6/12 lg:gap-12">
                         <div class="flex flex-col lg:w-6/12">
@@ -225,14 +225,14 @@
                                         Bonjour, je m'appelle Jules
                                     </span>
                                 </h2>
-                                <h6 class="text-[1.2em] text-center uppercase lg:text-end lg:text-2xl ">
+                                <h6 class="text-[1.2em] text-[#A770FF] text-center uppercase lg:text-end lg:text-2xl ">
                                     <span>
                                         Jules JEAN-LOUIS
                                     </span>
                                 </h6>
                             </div>
                             <div id="aboutText" class="flex text-center lg:justify-end lg:items-end lg:text-end uppercase mt-11">
-                                <p class="text-[1.2em]">
+                                <p class="text-[1.2em] mx-2">
                                 <span>
                                     Je suis un étudiant passionné de développement Web et mobile en recherche d'une alternance afin de me professionaliser. Avec mes connaissances en HTML, CSS, PHP, JavaScript, JQuery, Bootstrap et Tailwind, je suis prêt à intégrer une équipe et à développer mes compétences en utilisant les dernières technologies pour créer des solutions innovantes et performantes.
                                 </span>
@@ -248,11 +248,11 @@
                                     </span>
                                 </h2>
                             </div>
-                            <div id="iconColorAbout" class="flex gap-x-6 mt-5">
-                                <i class="fa-brands fa-html5 fa-xl"></i>
-                                <i class="fa-brands fa-css3-alt fa-xl"></i>
-                                <i class="fa-brands fa-js fa-xl"></i>
-                                <i class="fa-brands fa-php fa-xl"></i>
+                            <div class="flex gap-x-6 mt-5">
+                                <i id="iconColorAbout" class="fa-brands fa-html5 fa-xl"></i>
+                                <i id="iconColorAbout" class="fa-brands fa-css3-alt fa-xl"></i>
+                                <i id="iconColorAbout" class="fa-brands fa-js fa-xl"></i>
+                                <i id="iconColorAbout" class="fa-brands fa-php fa-xl"></i>
                             </div>
                             <div class="flex items-center mt-6">
                                 <i class="fa-solid fa-circle-nodes" id="iconCodeAbout"></i>
@@ -266,7 +266,6 @@
                                 <img src="images-cv/tailwind-css-seeklogo.com.svg" alt="" id="importSVGLogo">
                                 <img src="images-cv/bootstrap.svg" alt="" id="importSVGLogo">
                                 <img src="images-cv/jquery.svg" alt="" id="importSVGLogo">
-                                
                             </div>
                         </div>
                     </div>
@@ -274,13 +273,35 @@
             </section>
         </article>
         <article>
-		<section class="projet h-[180vh] lg:h-[150vh]" id="section_projets">
+		<section class="projet h-[250vh] py-[10%] lg:h-[150vh]" id="section_projets">
 			<div class="box-warpper-projet">
 				<div class="flex items-center mb-8" id="fontSectionTitle">
 					<i class="fa-solid fa-laptop-code"></i>
 					<h2 class="text-3xl uppercase ml-2">Projets Sélectionner</h2>
 				</div>
 				<div id="containerImages" class="flec flex-col justify-center">
+                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+                        <div>
+                            <h2 class="uppercase text-4xl font-semibold hiddenProject">
+								<span class="">
+									Autocomplete
+								</span>
+                            </h2>
+                            <p class="flex flex-col ml-8" id="subTitleDescro">
+								<span>
+									Autocomplete en JS
+								</span>
+                                <span>
+									PHP, HTML, CSS, JS, SQL, Tailwind
+								</span>
+                            </p>
+                        </div>
+                        <div id="imgwarpper">
+                            <a href="https://github.com/jules-jean-louis1/Autocompletion">
+                                <img src="images-cv/projet/autocomplete.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            </a>
+                        </div>
+                    </div>
 					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
 						<div>
 							<h2 class="uppercase text-4xl font-semibold hiddenProject">
@@ -303,7 +324,7 @@
                             </a>
                         </div>
 					</div>
-                    <div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+                    <div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
                                 <img src="images-cv/projet/module-connexion.PNG" alt="" class="lg:h-[20vh] lg:w-[35vw]">
@@ -347,7 +368,7 @@
                             </a>
                         </div>
                     </div>
-					<div id="projectWarpper" class="flex flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
+					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-col items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper">
                             <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
                                 <img src="images-cv/projet/rsalles.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
@@ -374,7 +395,7 @@
 		</section>
         </article>
         <article>
-            <section class="contact" id="section_contact">
+            <section class="contact h-[93vh]" id="section_contact">
                 <div id="wapper_contact" class="flex items-center">
                     <div class="icon_wrapper">
                         <i class="fa-solid fa-user fa-xl" id="iconContact"></i>
@@ -383,13 +404,16 @@
                         Contact
                     </h2>
                 </div>
-                <div id="containerContact" class="flex justify-center items-center mt-20 rounded-xl">
+                <div id="containerContact" class="flex justify-center items-center my-[15%] mb-[5%] lg:mt-20 rounded mx-5">
                     <div id="containerWarpper" class="flex flex-col items-center gap-10 lg:flex-row lg:justify-between lg:gap-28">
                         <div id="iconMeContact">
-                            <span class="svg_logo">
+                            <div id="contactLink" class="flex flex-col gap-y-5">
+                            <div class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 w-[85vw]">
+                                <div class="bg-[#A770FF] p-4 rounded">
+                                <span class="svg_logo">
                                 <svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
-                                    <path class="st0" d="M465.2,159.52c-11.7-27.66-28.42-52.52-49.71-73.88l-0.32-0.33c-2.78-2.77-5.61-5.47-8.5-8.09
+                                    <path class="logoJJLcontact" d="M465.2,159.52c-11.7-27.66-28.42-52.52-49.71-73.88l-0.32-0.33c-2.78-2.77-5.61-5.47-8.5-8.09
                                         c-19.45-17.62-41.5-31.7-65.71-41.94c-3.94-1.67-7.96-3.24-11.96-4.68c-1.4-0.5-2.8-0.99-4.21-1.47
                                         c-10.37-3.5-21.02-6.28-31.73-8.27c-0.76-0.14-1.52-0.28-2.29-0.41c-13.32-2.34-27-3.52-40.69-3.52c-13.86,0-27.7,1.22-41.19,3.61
                                         c-0.78,0.14-1.55,0.28-2.32,0.42c-10.54,1.98-21.01,4.73-31.2,8.18c-1.41,0.47-2.82,0.96-4.21,1.47c-4,1.44-8.02,3.01-11.96,4.68
@@ -407,25 +431,47 @@
                                         c0.36,0.07,0.72,0.14,1.08,0.21c11.17,2.15,22.24,5.2,32.94,9.07V290.9l106.36,83.6C390.52,433.94,323.39,469.87,250.09,469.87z
                                         M469.38,259.24c-0.47,11.82-1.85,23.45-4.15,34.84l-58.56-46.03V96.63c1.4,1.42,2.78,2.87,4.14,4.34
                                         c37.88,40.72,58.73,93.79,58.73,149.43C469.55,253.32,469.49,256.3,469.38,259.24z"/>
-                                </svg>
-						    </span>
-                        </div>
-                        <div id="contactLink" class="flex flex-col gap-y-5">
-                            <div id="contactMail" class="flex items-center">
-                                <i class="fa-solid fa-at fa-xl"></i>
-                                <p class="ml-4">
+                                    </svg>
+						        </span>
+                                </div>
+                                <h2 class="flex flex-col items-center py-2 text- text-xl">
+                                <span class="text-[#CFCFD0] py-2">
+                                    Jules Jean-Louis
+                                </span>
+                                    <span class="text-[#A770FF]">
+                                    Développeur Web
+                                </span>
+                                </h2>
+                            </div>
+                            <div id="contactMail" class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
+                                <div class="bg-[#27282B] p-4 rounded">
+                                    <i class="fa-solid fa-at fa-xl hover:text-[#A770FF]"></i>
+                                </div>
+                                <p class="flex flex-col items-center">
+                                    <span class="text-[#646467] py-2">
+                                        E-mail :
+                                    </span>
                                   <span>
                                     <a href="mailto:jules.jean-louis@laplateforme.io">jules.jean-louis@laplateforme.io</a>
                                   </span>
                                 </p>
                             </div>
-                            <div id="contactCV" class="flex items-center">
-                                <i class="fa-solid fa-file-arrow-down fa-xl"></i>
-                                <p class="ml-4 capitalize">
+                            <div id="contactCV" class="flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4">
+                                <div class="bg-[#27282B] p-4 rounded">
+                                    <a href="https://jules-jean-louis.students-laplateforme.io/CV%20DEV%20WEB%20Jules%20Jean-Louis%20V2.pdf">
+                                    <i class="fa-solid fa-file-arrow-down fa-xl hover:text-[#A770FF]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://jules-jean-louis.students-laplateforme.io/CV%20DEV%20WEB%20Jules%20Jean-Louis%20V2.pdf">
+                                    <p class="flex flex-col items-center">
+                                        <span class="text-[#646467] py-2">
+                                        Curriculum vitae :
+                                        </span>
                                     <span>
                                         Télecharger mon CV
                                     </span>
-                                </p>
+                                    </p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -439,7 +485,7 @@
                 <div class="flex flex-col ">
                     <div class="flex items-center">
                         <i class="fa-solid fa-arrow-right" id="iconColorFooter"></i>
-                        <h2 class="uppercase ml-4" id="h2footerContact">Contacter-moi</h2>
+                        <h2 class="uppercase ml-4" id="h2footerContact">Contactez-moi</h2>
                     </div>
                     <div class="flex items-center">
                         <p>
@@ -452,7 +498,7 @@
                 <div id="socialLinks" class="flex flex-row justify-center items-center ">
                     <ul class="flex justify-around">
                         <li class="mx-2">
-                            <a href="#" target="_blank" id="colorFontFooter">
+                            <a href="https://github.com/jules-jean-louis1" target="_blank" id="colorFontFooter">
                                 Github
                             </a>
                         </li>
@@ -468,7 +514,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="backToTheTopCont" class="mb-4 lg:mb-0">
+                <div id="backToTheTopCont" class="lg:mb-0">
                     <div>
                         <a href="#top" id="colorFontFooter">
                             <span>Back to the top</span>

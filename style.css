@@ -50,7 +50,7 @@ header {
 	background: linear-gradient(90deg, #dc08e3 0%, #3c017a 150%);
 	position: sticky;
 	left: 0;
-	max-width: 98.30%;
+	/*max-width: 98.30%;*/
 	border-radius: 20px;
   }
 
@@ -221,13 +221,10 @@ iframe {
 }
 
 #iconColorAbout {
-	color: hsla(0, 0%, 100%, 0.4);
+	color: #A770FF;
 }
 #aboutContainer{
 	padding-top: 10%;
-}
-#aboutMeTitle h6{
-	color: hsla(0, 0%, 100%, 0.4);
 }
 #aboutText p{
 	font-family: 'Poppins', sans-serif;
@@ -246,9 +243,7 @@ iframe {
 	color: hsla(0, 0%, 100%, 0.4);
 }
 img#importSVGLogo {
-    width: 16%;
 	color: hsla(0, 0%, 100%, 0.4);
-	
 }
 /*#############################################################
 ###############################################################
@@ -310,6 +305,9 @@ img#importSVGLogo {
 	height: 40vh;
 	color: hsl(180,1%,78%);
 }
+.logoJJLcontact {
+	fill: #CFCFD0;
+}
 #wapper_contact {
 	margin-left: 10%;
     margin-right: 10%;
@@ -328,7 +326,10 @@ img#importSVGLogo {
 i#contactLink {
 	color: hsla(0, 0%, 100%, 0.4);
 }
-
+#iconMeContact iframe{
+	position: relative;
+	z-index: 4;
+}
 /*#############################################################
 ###############################################################
 ############ F O O T E R - S E C T I O N ######################
