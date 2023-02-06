@@ -179,7 +179,7 @@
 								</span>
 						</div>
 					</div>
-					<div class="flex flex-col py-4">
+					<div class="flex flex-col py-4 lg:w-[35%]">
 						<p class="imageDroite flex flex-col lg:items-end uppercase text-[0.8em] lg:text-[1.2em]" id="infoPresentText">
 							<span class="my-0.3">
 								Je m'appelle Jules Jean-louis
@@ -197,9 +197,9 @@
 							<b id="boldFontHome">projets</b> que j'ai réalisés cette année.
 							</span>
 						</p>
-						<div class="hiddenanime2 btn mt-1 pb-9">
+						<div class="hiddenanime2 btn mt-1 pb-9 lg:pb-4">
                             <a href="#section_contact">
-                                <button class="mb-4 border-2 rounded w-full py-4 uppercase"
+                                <button class="mb-4 border-2 rounded w-full py-4 uppercase lg:mb-5"
                                     id="btnContactDefilAuto"
                                 >Contactez-Moi
                                 </button>
@@ -209,10 +209,10 @@
 				</div>
 
 			</section>
-            <div class="iframeBackground">
+            <!-- <div class="iframeBackground">
                 <iframe src='https://my.spline.design/clonerwavescopy-36e0ef6f39d654d64d91f12b6afdac7e/' frameborder='0' width='100%' height='100%'></iframe>
 <!--                <iframe src='https://my.spline.design/componentdonutscopy-1b4107d893bce2633e52ce98b6d5cfd2/' frameborder='0' width='100%' height='100%'></iframe>-->
-            </div>
+            </div> -->
 		</article>
         <article>
             <section id="aboutME" class="flex justify-center items-center h-[150vh] lg:h-3/4">
