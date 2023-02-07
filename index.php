@@ -16,7 +16,7 @@
 		<div class="bg-blur-50 py-3 mx-4 flex flex-row justify-between border-b-1" id="navbar-container">
             <div id="id-name"class="flex mx-2">
                 <div id="div" class="flex items-center">
-				<a href="#top">
+				    <a href="#top">
 						<span class="svg_logo">
 							<svg version="1.1" id="logo-nav" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
@@ -262,10 +262,10 @@
                                     </span>
                                 </h2>
                             </div>
-                            <div id="iconColorAbout" class="flex justify-center gap-x-6">
-                                <img src="images-cv/tailwind-css-seeklogo.com.svg" alt="" id="importSVGLogo">
-                                <img src="images-cv/bootstrap.svg" alt="" id="importSVGLogo">
-                                <img src="images-cv/jquery.svg" alt="" id="importSVGLogo">
+                            <div class="flex justify-center gap-x-6">
+                                <img src="images-cv/tailwind-css-seeklogo.com.svg" alt="" class="filter-gray">
+                                <img src="images-cv/bootstrap.svg" alt="" class="filter-gray" >
+                                <img src="images-cv/jquery.svg" alt="" class="filter-gray">
                             </div>
                         </div>
                     </div>

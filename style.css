@@ -218,10 +218,6 @@ iframe {
 	background: #121316;
 	color: hsl(180,1%,78%);
 }
-
-#iconColorAbout {
-	color: #A770FF;
-}
 #aboutContainer{
 	padding-top: 10%;
 }
@@ -234,15 +230,18 @@ iframe {
 	color: hsla(0, 0%, 100%, 0.4);
 }
 #iconColorAbout:hover {
-	color: #dc08e3;
+	color: #A770FF;
 	transition: all 0.5s ease;
 }
 #iconColorAbout{
 	font-size: 2.5rem;
 	color: hsla(0, 0%, 100%, 0.4);
 }
-img#importSVGLogo {
-	color: hsla(0, 0%, 100%, 0.4);
+.filter-gray {
+	filter: invert(40%) sepia(63%) saturate(8%) hue-rotate(205deg) brightness(99%) contrast(101%);
+}
+.filter-gray:hover {
+	filter: invert(62%) sepia(52%) saturate(6013%) hue-rotate(230deg) brightness(101%) contrast(101%);
 }
 /*#############################################################
 ###############################################################
