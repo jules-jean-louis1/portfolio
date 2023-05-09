@@ -284,12 +284,12 @@
                         <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
-									Autocomplete
+									Boutique en ligne
 								</span>
                             </h2>
                             <p class="flex flex-col ml-8" id="subTitleDescro">
 								<span>
-									Autocomplete en JS
+									Boutique en JS
 								</span>
                                 <span>
 									PHP, HTML, CSS, JS, SQL, Tailwind
@@ -306,7 +306,7 @@
 						<div class="imageGauche">
 							<h2 class="uppercase text-4xl font-semibold hiddenProject">
 								<span class="">
-									Livre d'OR
+									Blog 'Option 13'
 								</span>
 							</h2>
 							<p class="flex flex-col ml-8" id="subTitleDescro">
