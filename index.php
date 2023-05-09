@@ -289,7 +289,7 @@
                             </h2>
                             <p class="flex flex-col ml-8" id="subTitleDescro">
 								<span>
-									Boutique en JS
+									Boutique de vente de jeux-videos
 								</span>
                                 <span>
 									PHP, HTML, CSS, JS, SQL, Tailwind
@@ -297,8 +297,8 @@
                             </p>
                         </div>
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://github.com/jules-jean-louis1/Autocompletion">
-                                <img src="images-cv/projet/autocomplete.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/boutique-en-ligne/index.php">
+                                <img src="images-cv/projet/Game-plus.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                     </div>
@@ -311,7 +311,7 @@
 							</h2>
 							<p class="flex flex-col ml-8" id="subTitleDescro">
 								<span>
-									Projet de livre d'or en
+									Blog Web Dev
 								</span>
 								<span>
 									PHP, HTML, CSS, JS, SQL
@@ -319,25 +319,22 @@
 							</p>
 						</div>
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://jules-jean-louis.students-laplateforme.io/livreor/index.php">
-                                <img src="images-cv/projet/livre-or.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/blog-js/index.php">
+                                <img src="images-cv/projet/blog-js.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
 					</div>
                     <div id="projectWarpper" class="flex flex-col-reverse lg:flex items-center lg:flex-row-reverse lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://jules-jean-louis.students-laplateforme.io/moduleconnexion/index.php">
-                                <img src="images-cv/projet/module-connexion.PNG" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/livreor-js/index.php">
+                                <img src="images-cv/projet/livre-or-js.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                         <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
-									Module de
+									Livre d'or JS
 								</span>
-                                <span>
-                                    connexion
-                                </span>
                             </h2>
                             <p class="flex flex-col ml-8" id="subTitleDescro">
                                 <span>
@@ -370,22 +367,19 @@
                     </div>
 					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-row-reverse items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://jules-jean-louis.students-laplateforme.io/reservationsalles/php/index.php">
-                                <img src="images-cv/projet/rsalles.jpg" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/Projet/index.php">
+                                <img src="images-cv/projet/projets-all.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                         <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
-									Réservation de
+									Voir tous mes projets
 								</span>
-                                <span>
-                                    salles
-                                </span>
                             </h2>
                             <p class="flex flex-col ml-8"id="subTitleDescro">
                                 <span>
-									PHP, HTML, CSS, JS, SQL
+									JS, PHP, HTML, CSS, JS, SQL
 								</span>
                             </p>
                         </div>
@@ -439,7 +433,7 @@
                                     Jules Jean-Louis
                                 </span>
                                     <span class="text-[#A770FF]">
-                                    Développeur Web
+                                    Développeur Web Junior
                                 </span>
                                 </h2>
                             </div>
