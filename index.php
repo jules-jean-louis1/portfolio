@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jules JEAN-LOUIS - Portefolio</title>
-	<link rel="icon" href="images-cv/circle-rev-1 copie-2.png" type="image/icon type">
+	<link rel="icon" href="images-cv/JJL-logo19-icon.png" type="image/icon type">
 	<link rel="stylesheet" href="style.css" />
 	<script defer src="script/script.js"></script>
 	<script src="https://cdn.tailwindcss.com"></script>
@@ -133,11 +133,11 @@
 				</div>
 				<div id="number" class="flex text-[4.3em] lg:text-[9em]">
 					<h3>
-						<span>27</span>
+						<span>03</span>
 					</h3>
 				</div>
 				<div id="label" class="flex flex-col text-[0.5em] mt-7 ml-2 lg:ml-4  lg:text-[1.5em]">
-					<span id="dateMoisAlt">Février</span>
+					<span id="dateMoisAlt">Octobre</span>
 					<span>Recherche</span>
 					<span>d'une alternance</span>
 				</div>
@@ -347,27 +347,24 @@
                         <div class="imageGauche">
                             <h2 class="uppercase text-4xl font-semibold">
 								<span class="">
-									Site de
+									WatchManager
 								</span>
-                                <span>
-                                    Voyage
-                                </span>
                             </h2>
                             <p class="flex flex-col ml-8" id="subTitleDescro">
                                 <span>
-                                    HTML, CSS
+                                    JS, PHP, Altorouter, MVC, API TMDB
 								</span>
                             </p>
                         </div>
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://jules-jean-louis.students-laplateforme.io/voyage/martinique.html">
-                                <img src="images-cv/projet/site-martinique.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/cinetech/">
+                                <img src="images-cv/projet/cinetech.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
                     </div>
 					<div id="projectWarpper" class="flex flex-col-reverse lg:flex-row-reverse items-center lg:flex-row lg:justify-center lg:gap-x-6 ">
                         <div id="imgwarpper" class="imageDroite">
-                            <a href="https://jules-jean-louis.students-laplateforme.io/Projet/index.php">
+                            <a href="https://jules-jean-louis.students-laplateforme.io/cinetech/">
                                 <img src="images-cv/projet/projets-all.png" alt="" class="lg:h-[20vh] lg:w-[35vw]">
                             </a>
                         </div>
