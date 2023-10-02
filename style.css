@@ -237,10 +237,13 @@ iframe {
 	font-size: 2.5rem;
 	color: hsla(0, 0%, 100%, 0.4);
 }
+.filter_white {
+	color: #fbfafb;
+}
 .filter-gray {
 	filter: invert(40%) sepia(63%) saturate(8%) hue-rotate(205deg) brightness(99%) contrast(101%);
 }
-.filter-gray:hover {
+.filter-gray:hover, .filter_white:hover {
 	filter: invert(62%) sepia(52%) saturate(6013%) hue-rotate(230deg) brightness(101%) contrast(101%);
 }
 /*#############################################################
