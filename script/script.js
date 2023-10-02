@@ -61,3 +61,47 @@ imageLeft.forEach((el) => observer.observe(el));
 imageRight.forEach((el) => observer.observe(el));
 
 
+const html5 = document.querySelector("#html5");
+const css3 = document.querySelector("#css3");
+const javascript = document.querySelector("#javascript");
+const php = document.querySelector("#php");
+const nodejs = document.querySelector("#nodejs");
+
+// frameWork
+const bootstrap = document.querySelector("#bootstrap");
+const jquery = document.querySelector("#jquery");
+const react = document.querySelector("#react");
+const tailwind = document.querySelector("#tailwind");
+
+const titleHtml5 = document.querySelector("#titleHtml5");
+const titleCss3 = document.querySelector("#titleCss3");
+const titleJavascript = document.querySelector("#titleJavascript");
+const titlePhp = document.querySelector("#titlePhp");
+const titleNodejs = document.querySelector("#titleNodejs");
+
+// frameWork
+const titleBootstrap = document.querySelector("#titleBootstrap");
+const titleJquery = document.querySelector("#titleJquery");
+const titleReact = document.querySelector("#titleReact");
+const titleTailwind = document.querySelector("#titleTailwind");
+
+function displayTitle(svg, title) {
+    svg.addEventListener("mouseover", () => {
+        title.classList.remove("hidden");
+    });
+    svg.addEventListener("mouseout", () => {
+        title.classList.add("hidden");
+    });
+}
+displayTitle(html5, titleHtml5);
+displayTitle(css3, titleCss3);
+displayTitle(javascript, titleJavascript);
+displayTitle(php, titlePhp);
+displayTitle(nodejs, titleNodejs);
+
+// frameWork
+displayTitle(bootstrap, titleBootstrap);
+displayTitle(jquery, titleJquery);
+displayTitle(react, titleReact);
+displayTitle(tailwind, titleTailwind);
+
