@@ -1,9 +1,9 @@
 "use client";
 import ProjectCard from "@/components/ProjectCard";
-import { useState } from "react";
 import Header from "../components/navigations/Header";
 import { MoveLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Head from "next/head";
 
 const projects = [
   {
@@ -20,7 +20,14 @@ const projects = [
     title: "Wings-Map",
     image: "/images/Projets/wings-map.png",
     description: "Plateforme de cartographie des déchets sauvages.",
-    tags: ["alternance", "Next.js", "Cartographie", "Docker", "PostGIS", "Leaflet"],
+    tags: [
+      "alternance",
+      "Next.js",
+      "Cartographie",
+      "Docker",
+      "PostGIS",
+      "Leaflet",
+    ],
     details:
       "Outil développé en alternance pour référencer les données de caractérisation des déchets collectés par Wings of the Ocean. Soutenu par le Fonds d’Intervention Maritime (DGAMPA), il permet de visualiser et centraliser les données de science participative sur la pollution marine via des cartes interactives.",
     github: "https://github.com/jules-jean-louis1/wings-map",
@@ -101,7 +108,15 @@ const projects = [
 export default function Projets() {
   const router = useRouter();
   return (
-    <div>
+    <>
+      <Head>
+        <title>Portfolio - Jules JEAN-LOUIS | Développeur Web</title>
+        <meta
+          name="description"
+          content="Portfolio de Jules JEAN-LOUIS, développeur web passionné par le code et le design. Découvrez mes projets et expériences."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <Header />
       <main className="min-h-screen bg-[#121316] text-[#CFCFD0] py-16">
         <div className="max-w-5xl mx-auto px-4">
@@ -135,6 +150,6 @@ export default function Projets() {
           </div>
         </div>
       </main>
-    </div>
+    </>
   );
 }

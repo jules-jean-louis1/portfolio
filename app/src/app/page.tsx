@@ -4,13 +4,11 @@ import Image from "next/image";
 import LogicielsSVG from "./components/LogicielsSVG";
 import FrameworksSVG from "./components/FrameworksSVG";
 import LangagesSVG from "./components/LangagesSVG";
-import ContactCard from "../components/ContactCard";
 import Header from "./components/navigations/Header";
 import {
   Download,
   FileUser,
   Github,
-  Link,
   Linkedin,
   Mail,
   MapPin,
@@ -18,51 +16,13 @@ import {
   User,
 } from "lucide-react";
 
-const projetsSelectionnes = [
-  {
-    title: "Wings Map",
-    image: "app/public/images/Projets/wings-map.png",
-    descriptionShort: "Visualiser les données des déchets collectées",
-    stack: "Next.js, Hasura, GraphQL, React-Admin",
-    link: "https://wings-map.com",
-  },
-  {
-    title: "Arbovirus",
-    image: "/images-cv/projet/blog-js.png",
-    description: "Blog Web Dev",
-    stack: "Next.js, Hasura, GraphQL, Docker",
-    link: "https://jules-jean-louis.students-laplateforme.io/blog-js/index.php",
-  },
-  {
-    title: "Geonature",
-    image: "/images-cv/projet/supperreminder.png",
-    description: "Application de rappel de tâches",
-    stack: "PHP, HTML, CSS, JS, SQL, Altorouter",
-    link: "https://jules-jean-louis.students-laplateforme.io/super-reminder/",
-  },
-  {
-    title: "GeoPaysages",
-    image: "/images-cv/projet/cinetech.png",
-    description: "Gestionnaire de films et séries",
-    stack: "JS, PHP, Altorouter, MVC, API TMDB",
-    link: "https://jules-jean-louis.students-laplateforme.io/Projet/index.php",
-  },
-  {
-    title: "Voir tous mes projets",
-    image: "/images-cv/projet/projets-all.png",
-    description: "Portfolio complet",
-    stack: "JS, PHP, HTML, CSS, JS, SQL, POO, Node.js",
-    link: "https://jules-jean-louis.students-laplateforme.io/Projet/index.php",
-  },
-];
-
 export default function Home() {
   const date = new Date();
   const currentDay = date.getDate();
   const currentMonth = date.toLocaleString("fr-FR", { month: "long" });
 
   return (
-    <div>
+    <>
       <Header />
       <main className="w-full overflow-clip">
         <article id="home-page">
@@ -130,12 +90,12 @@ export default function Home() {
             </div>
           </section>
           <div className="iframeBackground">
-            {/* <iframe
+            <iframe
               src="https://my.spline.design/clonerwavescopy-36e0ef6f39d654d64d91f12b6afdac7e/"
               frameBorder="0"
               width="100%"
               height="100%"
-            ></iframe> */}
+            ></iframe>
           </div>
         </article>
         <article>
@@ -527,6 +487,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
