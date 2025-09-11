@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 
 const Header: React.FC = () => {
   const path = usePathname();
-  console.log(path)
   useEffect(() => {
     // Scroll navbar effect
     const nav = document.querySelector(".scroller");
