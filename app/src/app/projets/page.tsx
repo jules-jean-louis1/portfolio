@@ -20,7 +20,7 @@ const projects = [
     title: "Wings-Map",
     image: "/images/Projets/wings-map.png",
     description: "Plateforme de cartographie des déchets sauvages.",
-    tags: ["Next.js", "Cartographie", "JavaScript", "PostGIS", "Leaflet"],
+    tags: ["alternance", "Next.js", "Cartographie", "Docker", "PostGIS", "Leaflet"],
     details:
       "Outil développé en alternance pour référencer les données de caractérisation des déchets collectés par Wings of the Ocean. Soutenu par le Fonds d’Intervention Maritime (DGAMPA), il permet de visualiser et centraliser les données de science participative sur la pollution marine via des cartes interactives.",
     github: "https://github.com/jules-jean-louis1/wings-map",
@@ -30,7 +30,7 @@ const projects = [
     title: "Arbovirus",
     image: "/images/Projets/arbovirus.png",
     description: "Application de suivi des cas d'arboviroses.",
-    tags: ["Python", "Flask", "JavaScript", "PostgreSQL", "Next.js", "Hasura"],
+    tags: ["alternance", "Python", "PostgreSQL", "Next.js", "Hasura"],
     details:
       "Application web pour le suivi des cas d'arboviroses (Dengue, Chikungunya, Zika) en France. Permet la saisie, la visualisation et l'analyse des données épidémiologiques et entomologiques via des tableaux de bord interactifs.",
     github: "https://github.com/jules-jean-louis1/arbovirus",
@@ -77,13 +77,23 @@ const projects = [
     website: null,
   },
   {
-    title: "Voir tous mes projets",
+    title: "Blog Js",
+    image: "/images/Projets/blog-js.png",
+    description: "Blog personnel en JavaScript.",
+    tags: ["JavaScript", "HTML", "CSS", "LocalStorage"],
+    details:
+      "Blog personnel avec création, édition et suppression d'articles, utilisant LocalStorage pour la persistance des données.",
+    github: "https://github.com/jules-jean-louis1/blog-js",
+    website: null,
+  },
+  {
+    title: "Portfolio",
     image: "/images/Projets/projets-all.png",
     description: "Mon portfolio complet de projets web.",
     tags: ["JavaScript", "PHP", "HTML", "CSS", "SQL", "POO", "Node.js"],
     details:
       "Portfolio interactif regroupant tous mes projets réalisés durant la formation, avec navigation, descriptions et liens vers les dépôts GitHub.",
-    github: "https://github.com/jules-jean-louis1/projets",
+    github: "https://github.com/jules-jean-louis1/",
     website: null,
   },
 ];
