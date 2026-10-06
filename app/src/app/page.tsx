@@ -134,56 +134,52 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                  <div className="flex flex-col gap-8">
-                    <div className="flex flex-col">
-                      <span className="text-2xl font-bold text-[#A770FF]">
-                        2024 - 2025
-                      </span>
-                      <span className="ml-4 text-base">
-                        2 ans d&apos;expérience en développement web
-                      </span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-2xl font-bold text-[#A770FF]">
-                        2025
-                      </span>
-                      <span className="ml-4 text-base">
-                        Concepteur développeur d&apos;applications (Bac +3/4)
-                      </span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-2xl font-bold text-[#A770FF]">
-                        2023
-                      </span>
-                      <span className="ml-4 text-base">
-                        Développeur web et web mobile (Bac +2)
-                      </span>
-                    </div>
-                    <div>
-                      <div className="flex items-center mt-2">
-                        <Mail className="text-[#A770FF]" />
-                        <span className="ml-4 text-base">
-                          jules.jean-louis@laplateforme.io
-                        </span>
-                      </div>
-                      <div className="flex items-center mt-2">
-                        <MapPin className="text-[#A770FF]" />
-                        <span className="ml-4 text-base">
-                          Marseille, France
-                        </span>
-                      </div>
-                      <a
-                        className="flex items-center mt-2 font-bold h-10 px-5 rounded-12 bg-[#A770FF] w-fit"
-                        href="/files/Jules_Jean-louis_CV.pdf"
-                        download
-                      >
-                        <Download className="text-[#CFCFD0]" />
-                        <span className="ml-4 text-base">
-                          Telecharger mon CV
-                        </span>
-                      </a>
-                    </div>
+                <div className="flex flex-col gap-8">
+                  <div className="flex flex-col">
+                    <span className="text-2xl font-bold text-[#A770FF]">
+                      2024 - 2025
+                    </span>
+                    <span className="ml-4 text-base">
+                      2 ans d&apos;expérience en développement web
+                    </span>
                   </div>
+                  <div className="flex flex-col">
+                    <span className="text-2xl font-bold text-[#A770FF]">
+                      2025
+                    </span>
+                    <span className="ml-4 text-base">
+                      Concepteur développeur d&apos;applications (Bac +3/4)
+                    </span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-2xl font-bold text-[#A770FF]">
+                      2023
+                    </span>
+                    <span className="ml-4 text-base">
+                      Développeur web et web mobile (Bac +2)
+                    </span>
+                  </div>
+                  <div>
+                    <div className="flex items-center mt-2">
+                      <Mail className="text-[#A770FF]" />
+                      <span className="ml-4 text-base">
+                        jules.jean-louis@laplateforme.io
+                      </span>
+                    </div>
+                    <div className="flex items-center mt-2">
+                      <MapPin className="text-[#A770FF]" />
+                      <span className="ml-4 text-base">Marseille, France</span>
+                    </div>
+                    <a
+                      className="flex items-center mt-2 font-bold h-10 px-5 rounded-12 bg-[#A770FF] w-fit"
+                      href="/files/Jules_Jean-louis_CV.pdf"
+                      download
+                    >
+                      <Download className="text-[#CFCFD0]" />
+                      <span className="ml-4 text-base">Telecharger mon CV</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div
