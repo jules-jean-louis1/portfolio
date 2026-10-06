@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
       )}
       <div className="flex flex-col mx-4">
-        <h3 className="text-2xl multi-truncate font-bold font-disket-mono line-clamp-3 mt-2 break-words">
+        <h3 className="text-2xl multi-truncate font-bold font-staatliches line-clamp-3 mt-2 break-words">
           {name}
         </h3>
         <div className="flex flex-wrap gap-2 mb-2">
@@ -57,7 +57,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       {isPopupOpen && (
         <div className="popup fixed inset-0 bg-overlay-quaternary-onion bg-opacity-70 flex justify-center items-center z-50">
           <div className="popup-content bg-[#1E1F26] text-white p-6 rounded-lg shadow-xl w-[50%]">
-            <h3 className="text-2xl font-bold mb-4 font-disket-mono">{name}</h3>
+            <h3 className="text-2xl font-bold mb-4 font-staatliches">{name}</h3>
             <div className="flex flex-wrap gap-2 mb-2">
               {tags.map((tag, index) => (
                 <span

@@ -49,7 +49,7 @@ export default function Home() {
                 id="label"
                 className="flex flex-col text-[0.5em] mt-2 ml-2 lg:ml-4  lg:text-[1.5em]"
               >
-                <span id="dateMoisAlt" className="font-disket-mono">
+                <span id="dateMoisAlt" className="font-staatliches">
                   {currentMonth}
                 </span>
                 <span>Open To Work</span>
@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="hiddenanime2 btn mt-1 pb-9 lg:pb-4">
                   <a href="#section_contact">
                     <button
-                      className="mb-4 border-2 rounded w-full py-4 uppercase lg:mb-5 font-disket-mono"
+                      className="mb-4 border-2 rounded w-full py-4 uppercase lg:mb-5 font-staatliches"
                       id="btnContactDefilAuto"
                     >
                       Contactez-Moi
@@ -134,7 +134,6 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col lg:mt-0">
                   <div className="flex flex-col gap-8">
                     <div className="flex flex-col">
                       <span className="text-2xl font-bold text-[#A770FF]">
@@ -164,7 +163,7 @@ export default function Home() {
                       <div className="flex items-center mt-2">
                         <Mail className="text-[#A770FF]" />
                         <span className="ml-4 text-base">
-                          jules.jeanlouis13@gmail.com
+                          jules.jean-louis@laplateforme.io
                         </span>
                       </div>
                       <div className="flex items-center mt-2">
@@ -185,7 +184,6 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                </div>
               </div>
             </div>
             <div
@@ -205,7 +203,7 @@ export default function Home() {
             <div className="box-warpper-projet" id="section_projets">
               <div className="flex items-center">
                 <Sparkles />
-                <h2 className="text-3xl uppercase ml-2 font-bold font-disket-mono">
+                <h2 className="text-3xl uppercase ml-2 font-bold font-staatliches">
                   Projets
                 </h2>
               </div>
@@ -327,7 +325,7 @@ export default function Home() {
           >
             <div className="flex items-center">
               <User />
-              <h2 className="text-[2.1em] font-semibold uppercase font-disket-mono">
+              <h2 className="text-[2.1em] font-semibold uppercase font-staatliches">
                 Contact
               </h2>
             </div>
@@ -369,7 +367,7 @@ export default function Home() {
                   className="flex flex-col items-center"
                 >
                   <span className="text-[#646467] py-2">E-mail :</span>
-                  <span>jules.jeanlouis13@gmail.com</span>
+                  <span>jules.jean-louis@laplateforme.io</span>
                 </a>
               </div>
               <div className="imageGauche flex flex-col items-center bg-[#191A1E] hover:bg-[#202124] ease-in duration-300 p-4 min-h-50">

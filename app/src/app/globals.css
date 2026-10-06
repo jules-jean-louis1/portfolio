@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Titillium+Web:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
@@ -20,6 +21,7 @@
   font-family: "Disket-Mono-Regular";
   src: url("/cv-font/Disket-Mono-Regular.ttf") format("truetype");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -648,8 +650,8 @@ span.svg_logo {
   border-radius: 12px;
 }
 
-.font-disket-mono {
-  font-family: "Disket-Mono-Bold";
+.font-staatliches {
+  font-family: "Staatliches", sans-serif;
 }
 .font-disket-regular {
   font-family: "Disket-Mono-Regular";

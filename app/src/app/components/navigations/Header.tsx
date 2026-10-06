@@ -45,7 +45,7 @@ const Header: React.FC = () => {
             </a>
             <ul className="flex flex-row hidden md:flex">
               <li>
-                <h2 className="mx-2 font-disket-mono">
+                <h2 className="mx-2 font-staatliches">
                   Jules JEAN-LOUIS
                 </h2>
               </li>
